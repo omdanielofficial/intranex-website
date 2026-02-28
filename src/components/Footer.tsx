@@ -136,7 +136,7 @@ export const Footer = () => {
                                 {[
                                     { name: 'Terms of Service', to: '/legal/terms-of-service' },
                                     { name: 'Privacy Policy', to: '/legal/privacy-policy' },
-                                    { name: 'Service Level Agreement', to: '/legal/sla' },
+                                    { name: 'Service Level Agreement', to: '/legal/service-level-agreement' },
                                 ].map((item) => (
                                     <li key={item.name}>
                                         <Link to={item.to} className="text-gray-500 dark:text-gray-400 hover:text-brand-primary dark:hover:text-brand-primary transition-colors text-sm">
