@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Menu, X, Share2, ChevronDown, Moon, Sun, Database, Server, Cloud } from 'lucide-react';
+import { Menu, X, Share2, ChevronDown, Moon, Sun, Database, Server, Cloud, ShoppingBasketIcon, MedalIcon, SearchIcon, WifiHighIcon, BookIcon, ClockArrowDown } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { announcementConfig } from '../config/announcement';
 import logoWhite from '../assets/logo-white.svg';
@@ -107,7 +107,7 @@ export const Navbar = () => {
 
                             <img
                                 src={isDark ? logoWhite : logo}
-                                alt="Voltera Logo"
+                                alt="Intranex Logo"
                                 width={120}
                                 height={32}
                                 className="hidden lg:block h-8 w-auto object-contain transition-opacity duration-300"
@@ -115,7 +115,7 @@ export const Navbar = () => {
 
                             <img
                                 src={logoMobile}
-                                alt="Voltera Logo"
+                                alt="Intranex Logo"
                                 width={32}
                                 height={32}
                                 className="block lg:hidden h-8 w-auto object-contain transition-opacity duration-300"
@@ -127,74 +127,10 @@ export const Navbar = () => {
 
                         <div className="relative h-full flex items-center">
                             <button
-                                onClick={() => setActiveMenu(activeMenu === 'hosting' ? null : 'hosting')}
-                                className={`text-sm font-bold flex items-center gap-1 transition-colors ${activeMenu === 'hosting' ? 'text-brand-primary' : 'text-gray-600 dark:text-gray-300 hover:text-brand-primary dark:hover:text-brand-primary'}`}
-                            >
-                                Web Hosting
-                                <ChevronDown size={16} className={`transition-transform duration-200 ${activeMenu === 'hosting' ? 'rotate-180' : ''}`} />
-                            </button>
-
-                            <AnimatePresence>
-                                {activeMenu === 'hosting' && (
-                                    <motion.div
-                                        initial={{ opacity: 0, y: 10, x: "-50%" }}
-                                        animate={{ opacity: 1, y: 0, x: "-50%" }}
-                                        exit={{ opacity: 0, y: 10, x: "-50%" }}
-                                        transition={{ duration: 0.2 }}
-                                        className="absolute top-full left-1/2 mt-4 w-[750px] z-50"
-                                    >
-                                        <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 overflow-hidden flex ring-1 ring-black/5 dark:ring-white/10 text-left">
-
-                                            <div className="w-1/3 relative p-0 border-r border-gray-100 dark:border-gray-800 overflow-hidden">
-                                                <img
-                                                    src={megamenuWebhost}
-                                                    alt="Web Hosting"
-                                                    width={250}
-                                                    height={400}
-                                                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-                                                />
-                                                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-6 flex flex-col justify-end">
-                                                    <h3 className="text-xl font-bold text-white mb-2">Web Hosting</h3>
-                                                    <p className="text-xs font-medium text-gray-100 leading-relaxed opacity-90">
-                                                        Fast, reliable hosting solutions for websites of all sizes. Built on modern cloud infrastructure.
-                                                    </p>
-                                                </div>
-                                            </div>
-
-
-                                            <div className="w-2/3 p-6 grid grid-cols-2 gap-3">
-                                                {[
-                                                    { title: "Shared Hosting", desc: "Perfect for starting out", icon: Share2, price: "$1.45/mo", path: "/shared-hosting" },
-                                                    { title: "Cloud Hosting", desc: "Scalable powerhouse", icon: Cloud, price: "$6.99/mo", path: "/cloud-hosting" },
-                                                    { title: "Reseller Hosting", desc: "Start your own business", icon: Database, price: "$19.99/mo", path: "/reseller-hosting" },
-                                                ].map((item, idx) => (
-                                                    <Link key={idx} to={item.path} className="flex items-start gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors group">
-                                                        <div className="p-2.5 bg-brand-primary/10 rounded-lg text-brand-primary group-hover:bg-brand-primary group-hover:text-white transition-colors">
-                                                            <item.icon size={20} />
-                                                        </div>
-                                                        <div>
-                                                            <div className="text-sm font-bold text-gray-900 dark:text-white group-hover:text-brand-primary transition-colors">{item.title}</div>
-                                                            <div className="text-[11px] text-gray-500 dark:text-gray-400 mt-0.5">{item.desc}</div>
-                                                            <div className="mt-1.5 inline-block px-1.5 py-0.5 rounded bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-[10px] font-bold uppercase tracking-wide">
-                                                                Starts at {item.price}
-                                                            </div>
-                                                        </div>
-                                                    </Link>
-                                                ))}
-                                            </div>
-                                        </div>
-                                    </motion.div>
-                                )}
-                            </AnimatePresence>
-                        </div>
-
-
-                        <div className="relative h-full flex items-center">
-                            <button
                                 onClick={() => setActiveMenu(activeMenu === 'server' ? null : 'server')}
                                 className={`text-sm font-bold flex items-center gap-1 transition-colors ${activeMenu === 'server' ? 'text-brand-primary' : 'text-gray-600 dark:text-gray-300 hover:text-brand-primary dark:hover:text-brand-primary'}`}
                             >
-                                Server
+                                Solutions
                                 <ChevronDown size={16} className={`transition-transform duration-200 ${activeMenu === 'server' ? 'rotate-180' : ''}`} />
                             </button>
 
@@ -212,15 +148,15 @@ export const Navbar = () => {
                                             <div className="w-1/3 relative p-0 border-r border-gray-100 dark:border-gray-800 overflow-hidden bg-gray-900">
                                                 <img
                                                     src={megamenuServer}
-                                                    alt="Server Solutions"
+                                                    alt="Solutions"
                                                     width={250}
                                                     height={400}
                                                     className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105"
                                                 />
                                                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-6 flex flex-col justify-end">
-                                                    <h3 className="text-xl font-bold text-white mb-2">Server</h3>
+                                                    <h3 className="text-xl font-bold text-white mb-2">Solutions</h3>
                                                     <p className="text-xs font-medium text-gray-100 leading-relaxed opacity-90">
-                                                        Dedicated resources for demanding applications. Full control, high performance, and enterprise security.
+                                                        Try our fast, reliable, and scalable services today. Explore website hosting, cloud compute, infrastructure, and more.
                                                     </p>
                                                 </div>
                                             </div>
@@ -228,9 +164,12 @@ export const Navbar = () => {
 
                                             <div className="w-2/3 p-6 grid grid-cols-2 gap-3">
                                                 {[
-                                                    { title: "Cloud VPS", desc: "Flexible virtual private servers", icon: Cloud, price: "$3.00/mo", path: "/cloud-vps" },
-                                                    { title: "Dedicated Server", desc: "Bare metal power", icon: Database, price: "$79.00/mo", path: "/dedicated-server" },
-                                                    { title: "Colocation", desc: "Bring your own hardware", icon: Server, price: "$69.00/mo", path: "/colocation" },
+                                                    { title: "Web Hosting", desc: "Flexible shared hosting", icon: Share2, price: "£1.80/mo", path: "/web" },   
+                                                    { title: "Virtual Private Servers", desc: "Scalable cloud compute", icon: Cloud, price: "£5.20/mo", path: "/vps" },
+                                                    { title: "Dedicated Servers", desc: "100% bare metal servers", icon: Server, price: "£95.00/mo", path: "/dedicated" },
+                                                    { title: "Reseller Hosting", desc: "Start your hosting business", icon: Database, price: "Coming Soon", path: "/resellers" },
+                                                    { title: "Domains", desc: "Claim your online presence", icon: ShoppingBasketIcon, price: "£0.99/yr", path: "/domains" },
+                                                    { title: "Enterprise Solutions", desc: "Managed services & IT consultancy", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
                                                 ].map((item, idx) => (
                                                     <Link key={idx} to={item.path} className="flex items-start gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors group">
                                                         <div className="p-2.5 bg-brand-primary/10 rounded-lg text-brand-primary group-hover:bg-brand-primary group-hover:text-white transition-colors">
@@ -252,18 +191,79 @@ export const Navbar = () => {
                             </AnimatePresence>
                         </div>
 
-                        <Link
-                            to="/domain"
-                            className={`text-sm font-bold flex items-center gap-1 transition-colors ${activeMenu === 'domain' ? 'text-brand-primary' : 'text-gray-600 dark:text-gray-300 hover:text-brand-primary dark:hover:text-brand-primary'}`}
-                        >
-                            Domain
-                        </Link>
+                        <div className="relative h-full flex items-center">
+                            <button
+                                onClick={() => setActiveMenu(activeMenu === 'hosting' ? null : 'hosting')}
+                                className={`text-sm font-bold flex items-center gap-1 transition-colors ${activeMenu === 'hosting' ? 'text-brand-primary' : 'text-gray-600 dark:text-gray-300 hover:text-brand-primary dark:hover:text-brand-primary'}`}
+                            >
+                                Resources
+                                <ChevronDown size={16} className={`transition-transform duration-200 ${activeMenu === 'hosting' ? 'rotate-180' : ''}`} />
+                            </button>
+
+                            <AnimatePresence>
+                                {activeMenu === 'hosting' && (
+                                    <motion.div
+                                        initial={{ opacity: 0, y: 10, x: "-50%" }}
+                                        animate={{ opacity: 1, y: 0, x: "-50%" }}
+                                        exit={{ opacity: 0, y: 10, x: "-50%" }}
+                                        transition={{ duration: 0.2 }}
+                                        className="absolute top-full left-1/2 mt-4 w-[750px] z-50"
+                                    >
+                                        <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 overflow-hidden flex ring-1 ring-black/5 dark:ring-white/10 text-left">
+
+                                            <div className="w-1/3 relative p-0 border-r border-gray-100 dark:border-gray-800 overflow-hidden">
+                                                <img
+                                                    src={megamenuWebhost}
+                                                    alt="Resources"
+                                                    width={250}
+                                                    height={400}
+                                                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                                                />
+                                                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-6 flex flex-col justify-end">
+                                                    <h3 className="text-xl font-bold text-white mb-2">Resources</h3>
+                                                    <p className="text-xs font-medium text-gray-100 leading-relaxed opacity-90">
+                                                        Explore extensive documentation to make the most of your services. Plus, find a variety of useful links.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+
+                                            <div className="w-2/3 p-6 grid grid-cols-2 gap-3">
+                                                {[
+                                                    { title: "Documentation", desc: "Support & API guides", icon: BookIcon, price: "0", path: "https://docs.intranex.org/documentation" },
+                                                    { title: "Network Status", desc: "Infrastructure uptime monitoring", icon: WifiHighIcon, price: "0", path: "https://status.intranex.org" },
+                                                    { title: "Changelog", desc: "Our latest updates", icon: ClockArrowDown, price: "0", path: "https://docs.intranex.org/changelog" },
+                                                    { title: "Looking Glass", desc: "Test our network speeds", icon: SearchIcon, price: "0", path: "#" },
+                                                ].map((item, idx) => (
+                                                    <Link key={idx} to={item.path} className="flex items-start gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors group">
+                                                        <div className="p-2.5 bg-brand-primary/10 rounded-lg text-brand-primary group-hover:bg-brand-primary group-hover:text-white transition-colors">
+                                                            <item.icon size={20} />
+                                                        </div>
+                                                        <div>
+                                                            <div className="text-sm font-bold text-gray-900 dark:text-white group-hover:text-brand-primary transition-colors">{item.title}</div>
+                                                            <div className="text-[11px] text-gray-500 dark:text-gray-400 mt-0.5">{item.desc}</div>
+                                                        </div>
+                                                    </Link>
+                                                ))}
+                                            </div>
+                                        </div>
+                                    </motion.div>
+                                )}
+                            </AnimatePresence>
+                        </div>
 
                         <Link
                             to="/promo"
+                            className={`text-sm font-bold flex items-center gap-1 transition-colors ${activeMenu === 'domain' ? 'text-brand-primary' : 'text-gray-600 dark:text-gray-300 hover:text-brand-primary dark:hover:text-brand-primary'}`}
+                        >
+                            Special Offers
+                        </Link>
+
+                        <Link
+                            to="/contact"
                             className={`text-sm font-bold flex items-center gap-1 transition-colors ${activeMenu === 'promo' ? 'text-brand-primary' : 'text-gray-600 dark:text-gray-300 hover:text-brand-primary dark:hover:text-brand-primary'}`}
                         >
-                            Promo
+                            Contact
                         </Link>
                     </div>
 
@@ -276,7 +276,7 @@ export const Navbar = () => {
                         >
                             {isDark ? <Sun size={20} /> : <Moon size={20} />}
                         </button>
-                        <a href="#" className="text-sm font-bold text-gray-900 dark:text-white hover:text-brand-primary dark:hover:text-brand-primary transition-colors">Log in</a>
+                        <a href="https://client.intranex.org" className="text-sm font-bold text-gray-900 dark:text-white hover:text-brand-primary dark:hover:text-brand-primary transition-colors">Log In</a>
                         <button className="px-6 py-2.5 text-sm font-bold text-white bg-brand-primary rounded-lg hover:bg-brand-secondary transition-all duration-200">
                             Sign Up
                         </button>
@@ -307,7 +307,7 @@ export const Navbar = () => {
                                     onClick={() => setActiveMenu(activeMenu === 'hosting' ? null : 'hosting')}
                                     className={`flex items-center justify-between w-full p-2 text-base font-bold rounded-lg transition-colors ${activeMenu === 'hosting' ? 'text-brand-primary bg-brand-primary/5' : 'text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800'}`}
                                 >
-                                    <span>Web Hosting</span>
+                                    <span>Solutions</span>
                                     <ChevronDown size={18} className={`transition-transform duration-200 ${activeMenu === 'hosting' ? 'rotate-180' : ''}`} />
                                 </button>
                                 <AnimatePresence>
@@ -320,9 +320,12 @@ export const Navbar = () => {
                                         >
                                             <div className="pl-4 ml-4 border-l-2 border-brand-primary/20 space-y-3 py-2">
                                                 {[
-                                                    { title: "Shared Hosting", price: "Starts $1.45", path: "/shared-hosting" },
-                                                    { title: "Cloud Hosting", price: "Starts $6.99", path: "/cloud-hosting" },
-                                                    { title: "Reseller Hosting", price: "Starts $19.99", path: "/reseller-hosting" },
+                                                    { title: "Web Hosting", desc: "Flexible shared hosting", icon: Share2, price: "£1.80/mo", path: "/web" },   
+                                                    { title: "Virtual Private Servers", desc: "Scalable cloud compute", icon: Cloud, price: "£5.20/mo", path: "/vps" },
+                                                    { title: "Dedicated Servers", desc: "100% bare metal servers", icon: Server, price: "£95.00/mo", path: "/dedicated" },
+                                                    { title: "Reseller Hosting", desc: "Start your hosting business", icon: Database, price: "Coming Soon", path: "/resellers" },
+                                                    { title: "Domains", desc: "Claim your online presence", icon: ShoppingBasketIcon, price: "£0.99/yr", path: "/domains" },
+                                                    { title: "Enterprise Solutions", desc: "Managed services & IT consultancy", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
                                                 ].map((item, idx) => (
                                                     <Link key={idx} to={item.path} className="block">
                                                         <div className="text-sm font-semibold text-gray-900 dark:text-gray-100">{item.title}</div>
@@ -341,7 +344,7 @@ export const Navbar = () => {
                                     onClick={() => setActiveMenu(activeMenu === 'server' ? null : 'server')}
                                     className={`flex items-center justify-between w-full p-2 text-base font-bold rounded-lg transition-colors ${activeMenu === 'server' ? 'text-brand-primary bg-brand-primary/5' : 'text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800'}`}
                                 >
-                                    <span>Server</span>
+                                    <span>Resources</span>
                                     <ChevronDown size={18} className={`transition-transform duration-200 ${activeMenu === 'server' ? 'rotate-180' : ''}`} />
                                 </button>
                                 <AnimatePresence>
@@ -354,9 +357,10 @@ export const Navbar = () => {
                                         >
                                             <div className="pl-4 ml-4 border-l-2 border-brand-primary/20 space-y-3 py-2">
                                                 {[
-                                                    { title: "Cloud VPS", price: "Starts $3.00", path: "/cloud-vps" },
-                                                    { title: "Dedicated Server", price: "Starts $79.00", path: "/dedicated-server" },
-                                                    { title: "Colocation", price: "Starts $69.00", path: "/colocation" },
+                                                    { title: "Documentation", desc: "Support & API guides", icon: BookIcon, price: "", path: "https://docs.intranex.org/documentation" },
+                                                    { title: "Network Status", desc: "Infrastructure uptime monitoring", icon: WifiHighIcon, price: "", path: "https://status.intranex.org" },
+                                                    { title: "Changelog", desc: "Our latest updates", icon: ClockArrowDown, price: "", path: "https://docs.intranex.org/changelog" },
+                                                    { title: "Looking Glass", desc: "Test our network speeds", icon: SearchIcon, price: "", path: "#" },
                                                 ].map((item, idx) => (
                                                     <Link key={idx} to={item.path} className="block">
                                                         <div className="text-sm font-semibold text-gray-900 dark:text-gray-100">{item.title}</div>
@@ -369,9 +373,9 @@ export const Navbar = () => {
                                 </AnimatePresence>
                             </div>
 
-                            <Link to="/domain" className="block p-2 text-base font-bold text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg">Domain</Link>
+                            <Link to="/promo" className="block p-2 text-base font-bold text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg">Special Offers</Link>
 
-                            <Link to="/promo" className="block p-2 text-base font-bold text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg">Promo</Link>
+                            <Link to="/contact" className="block p-2 text-base font-bold text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 rounded-lg">Contact</Link>
                         </div>
 
                         <div className="p-4 mt-auto border-t border-gray-100 dark:border-gray-800 bg-gray-50 dark:bg-gray-900/50">
@@ -391,7 +395,7 @@ export const Navbar = () => {
                             <button className="w-full py-3 mb-3 text-sm font-bold text-white bg-brand-primary rounded-lg transition-all">
                                 Sign Up
                             </button>
-                            <a href="#" className="block w-full py-3 text-sm font-bold text-center text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-all">
+                            <a href="https://client.intranex.org" className="block w-full py-3 text-sm font-bold text-center text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-all">
                                 Log in
                             </a>
                         </div>

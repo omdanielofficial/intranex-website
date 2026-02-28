@@ -1,4 +1,4 @@
-import { Share2, Database, Server, Cloud, Tag, Award, ArrowRight, CheckCircle2, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Share2, Server, Cloud, ArrowRight, CheckCircle2, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -6,111 +6,60 @@ const products = [
     {
         icon: Share2,
         title: "Shared Hosting",
-        subtitle: "Web Starter Kit",
-        description: "Lightning-fast hosting for individuals and small businesses.",
-        price: "1.45",
+        subtitle: "Web Hosting",
+        description: "Lightning-fast website hosting with free SSL and business email included.",
+        price: "1.80",
         unit: "/mo",
         highlight: "Value Leader",
         theme: "emerald",
-        link: "/shared-hosting",
+        link: "/web",
         features: [
-            "Enterprise NVMe Storage",
-            "Unlimited Bandwidth",
+            "DirectAdmin Panel",
             "Free SSL Certificates",
-            "One-Click Installer",
-            "Jakarta & Global Nodes"
-        ]
-    },
-    {
-        icon: Server,
-        title: "Cloud VPS",
-        subtitle: "Full Root Control",
-        description: "Enterprise-grade AMD EPYC™ servers with full root access.",
-        price: "3.00",
-        unit: "/mo",
-        highlight: "Most Popular",
-        theme: "sky",
-        link: "/cloud-vps",
-        features: [
-            "Dedicated CPU Threads",
-            "AMD EPYC™ Genoa",
-            "DDR5 Memory Support",
-            "Full Root Access",
-            "DDoS Protection"
+            "NVMe SSD Storage",
+            "One-Click App Installer",
+            "Business Email",
+            "Available in London"
         ]
     },
     {
         icon: Cloud,
-        title: "Cloud Hosting",
-        subtitle: "Managed Autoscale",
-        description: "The power of a server with the simplicity of shared hosting.",
-        price: "6.99",
+        title: "Cloud Compute",
+        subtitle: "Virtual Private Servers",
+        description: "High-performance KVM virtual servers with NVMe storage and full root access.",
+        price: "5.20",
         unit: "/mo",
-        highlight: "High Performance",
-        theme: "amber",
-        link: "/cloud-hosting",
+        highlight: "Most Popular",
+        theme: "sky",
+        link: "/vps",
         features: [
-            "Managed Infrastructure",
-            "Auto-Scaling Resources",
-            "Dedicated RAM & CPU",
-            "Daily Remote Backups",
-            "Enhanced Security"
+            "AMD Ryzen™ CPUs",
+            "Dedicated CPU Threads",
+            "NVMe SSD Storage",
+            "Full Root Access",
+            "KVM Virtualisation",
+            "Available in London & New York City"
         ]
     },
     {
-        icon: Database,
-        title: "Dedicated Server",
-        subtitle: "Bare Metal Power",
-        description: "Maximum power with single-tenant bare metal hardware.",
-        price: "79.00",
+        icon: Server,
+        title: "Bare Metal",
+        subtitle: "Dedicated Servers",
+        description: "Maximum power with single-tenant bare metal hardware for all workloads.",
+        price: "95.00",
         unit: "/mo",
         highlight: "Maximum Power",
         theme: "purple",
-        link: "/dedicated-server",
+        link: "/dedicated",
         features: [
-            "Single-Tenant Server",
-            "1Gbps Unmetered Port",
-            "Tier-3 Data Centers",
-            "24/7 Hardware Support",
-            "Full Customization"
+            "AMD Ryzen™ CPUs",
+            "Single-Tenant Servers",
+            "NVMe SSD Storage",
+            "Full Root Access",
+            "Advanced Monitoring",
+            "Available in London & New York City"
         ]
     },
-    {
-        icon: Award,
-        title: "Colocation",
-        subtitle: "Secure Facility",
-        description: "Bring your own hardware to our secure, Tier-3 facility.",
-        price: "69.00",
-        unit: "/mo",
-        highlight: "Secure Hosting",
-        theme: "gray",
-        link: "/colocation",
-        features: [
-            "Tier-3 Jakarta DC",
-            "Redundant Power (UPS)",
-            "Precision Cooling",
-            "24/7 Biometric Access",
-            "Remote Hands Service"
-        ]
-    },
-    {
-        icon: Tag,
-        title: "Reseller Hosting",
-        subtitle: "Start Your Business",
-        description: "Build your own hosting brand with white-label solutions.",
-        price: "19.99",
-        unit: "/mo",
-        highlight: "Business Ready",
-        theme: "pink",
-        link: "/reseller-hosting",
-        features: [
-            "White-Label Billing",
-            "Free WHMCS License",
-            "cPanel/WHM Access",
-            "Overselling Enabled",
-            "Enterprise Backups"
-        ]
-    }
 ];
 
 export const Products = () => {
@@ -132,10 +81,10 @@ export const Products = () => {
                 <div className="flex flex-col md:flex-row justify-between items-end mb-12">
                     <div className="max-w-2xl">
                         <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 dark:text-white mb-4 tracking-tight">
-                            Build Your Infrastructure
+                            Popular Services
                         </h2>
                         <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-                            Scalable cloud solutions designed to fuel every stage of your business growth.
+                            Quickly get your website or application online with us.
                         </p>
                     </div>
 
@@ -201,9 +150,9 @@ export const Products = () => {
 
 
                                 <div className="mb-8 p-6 bg-gray-50 dark:bg-gray-900/50 rounded-2xl border border-gray-100 dark:border-gray-900">
-                                    <p className="text-[10px] font-black tracking-[0.2em] text-gray-600 dark:text-gray-400 mb-2">Starting At</p>
+                                    <p className="text-[10px] font-black tracking-[0.2em] text-gray-600 dark:text-gray-400 mb-2">Starting From</p>
                                     <div className="flex items-start text-gray-900 dark:text-white">
-                                        <span className="text-lg font-bold mt-1">$</span>
+                                        <span className="text-lg font-bold mt-1">£</span>
                                         <span className="text-4xl font-black tracking-tighter">{product.price}</span>
                                         <span className="text-sm font-bold text-gray-600 dark:text-gray-400 self-end mb-1 ml-1">{product.unit}</span>
                                     </div>
@@ -227,7 +176,7 @@ export const Products = () => {
                                     to={product.link}
                                     className="w-full py-4 bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-black rounded-xl hover:bg-brand-primary dark:hover:bg-brand-primary hover:text-white dark:hover:text-white transition-all duration-300 flex items-center justify-center gap-3 tracking-tighter text-sm"
                                 >
-                                    Explore Plan
+                                    Explore Plans
                                     <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                                 </Link>
                             </div>

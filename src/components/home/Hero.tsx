@@ -21,28 +21,28 @@ export const Hero = () => {
                                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
                             </span>
                             <span className="text-xs font-bold tracking-widest text-brand-secondary">
-                                New Region Store Opened: Jakarta
+                                Locations in London & New York City
                             </span>
                         </div>
 
                         <h1 className="text-5xl lg:text-7xl font-black text-gray-900 dark:text-white leading-[1.05] tracking-tighter mb-6 opacity-0 animate-fade-in-up animate-delay-100">
-                            Powering the <br />
+                            Secure, scalable <br />
                             <span className="text-brand-primary">
-                                Future of Cloud.
+                                cloud compute.
                             </span>
                         </h1>
 
                         <p className="text-lg lg:text-xl text-gray-600 dark:text-gray-400 leading-relaxed mb-8 max-w-2xl mx-auto lg:mx-0 opacity-0 animate-fade-in-up animate-delay-200">
-                            Deploy high-performance VPS and Enterprise Dedicated Servers on our global network. Lightning-fast NVMe storage with 99.95% uptime guaranteed.
+                            From cloud compute to managed hosting and consultancy, we provide the backbone that keeps businesses running faster, smarter and without compromise.
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-10 opacity-0 animate-fade-in-up animate-delay-300">
                             <Link
-                                to="/cloud-vps"
+                                to="/web"
                                 className="w-full sm:w-auto px-10 py-5 bg-brand-primary hover:bg-brand-secondary text-white font-black rounded-2xl transition-all flex items-center justify-center gap-2 group transform active:scale-95 tracking-tighter"
-                                aria-label="Get started with Voltera Cloud Cloud VPS"
+                                aria-label="Get started with Intranex VPS Hosting"
                             >
-                                Get Started Now
+                                Explore Plans
                                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                             </Link>
                         </div>
@@ -52,7 +52,7 @@ export const Hero = () => {
                             <div className="absolute inset-0 bg-brand-primary/20 blur-[60px] rounded-full animate-pulse-subtle" />
                             <img
                                 src={heroImage}
-                                alt="Voltera Cloud Infrastructure"
+                                alt="Intranex Cloud Infrastructure"
                                 width={1000}
                                 height={834}
                                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -65,9 +65,9 @@ export const Hero = () => {
 
                         <div className="grid grid-cols-2 md:flex items-center justify-center lg:justify-start gap-6 lg:gap-10 border-t border-gray-100 dark:border-gray-900 pt-10 opacity-0 animate-fade-in-up animate-delay-500">
                             {[
-                                { label: "100% NVMe", sub: "Enterprise Grade" },
-                                { label: "99.95% Uptime", sub: "SLA Guaranteed" },
-                                { label: "24/7 Support", sub: "Expert Human" }
+                                { label: "4.2★", sub: "Trustpilot Rating" },
+                                { label: "99.99% Uptime", sub: "SLA-Backed" },
+                                { label: "24/7 Support", sub: "From Real People" }
                             ].map((feature, i) => (
                                 <div key={i} className="flex flex-col items-center lg:items-start">
                                     <span className="text-lg font-black text-gray-900 dark:text-white">{feature.label}</span>
@@ -86,7 +86,7 @@ export const Hero = () => {
                             <div className="relative z-10 w-full max-w-[540px]">
                                 <img
                                     src={heroImage}
-                                    alt="Voltera Cloud Infrastructure"
+                                    alt="Intranex Cloud Infrastructure"
                                     width={1000}
                                     height={834}
                                     sizes="(max-width: 1024px) 100vw, 50vw"

@@ -3,7 +3,6 @@ import { Footer } from '../components/Footer';
 import { ResellerHostingHero } from '../components/reseller-hosting/Hero';
 import { ResellerHostingFeatures } from '../components/reseller-hosting/Features';
 import { ResellerHostingPricing } from '../components/reseller-hosting/Pricing';
-import { ResellerHostingEnterpriseCTA } from '../components/reseller-hosting/EnterpriseCTA';
 import { SupportGuarantee } from '../components/SupportGuarantee';
 import { ResellerHostingFAQ } from '../components/reseller-hosting/FAQ';
 import { CTA } from '../components/home/CTA';
@@ -18,7 +17,6 @@ const ResellerHosting = () => {
             <ResellerHostingHero />
             <ResellerHostingFeatures />
             <ResellerHostingPricing />
-            <ResellerHostingEnterpriseCTA />
             <SupportGuarantee />
             <ResellerHostingFAQ />
             <CTA />

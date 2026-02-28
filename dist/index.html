@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#FF7A00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Critical preconnections -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <!-- Preload Critical Assets -->
+
+  <link rel="preload" as="style" crossorigin
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet">
+  </noscript>
+
+  <!-- Crisp Live Chat -->
+  <!-- <script type="text/javascript">-->
+   <!--  window.$crisp = [];-->
+   <!--  window.CRISP_WEBSITE_ID = "";-->
+   <!--  (function () {-->
+   <!--    d = document;-->
+   <!--    s = d.createElement("script");-->
+    <!--   s.src = "https://client.crisp.chat/l.js";-->
+   <!--    s.async = 1;-->
+   <!--    d.getElementsByTagName("head")[0].appendChild(s);-->
+   <!--  })();-->
+   <!--</script>-->
+
+  <title>Intranex | Global Enterprise Cloud Solutions</title>
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('theme');
+      const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const isDark = savedTheme === 'dark' || (!savedTheme && systemDark);
+      if (isDark) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    })();
+  </script>
+  <style>
+    body {
+      background-color: #ffffff;
+      margin: 0;
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    }
+
+    .dark body {
+      background-color: #030712;
+    }
+
+    .preloader-root {
+      position: fixed;
+      inset: 0;
+      background: inherit;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+
+    .preloader-logo {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 24px;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    .preloader-bar {
+      width: 120px;
+      height: 2px;
+      background: rgba(128, 128, 128, 0.2);
+      border-radius: 4px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .preloader-progress {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 40%;
+      background: #FF7A00;
+      border-radius: 4px;
+      animation: progress 1.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+
+      0%,
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      50% {
+        opacity: 0.7;
+        transform: scale(0.95);
+      }
+    }
+
+    @keyframes progress {
+      0% {
+        left: -40%;
+      }
+
+      100% {
+        left: 100%;
+      }
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-D3cqIeOT.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vendor-react-RVix7son.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-framer-BqFW4GGk.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-icons-DEnBfmPk.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-DeKllsmz.css">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+</head>
+
+<body class="bg-white dark:bg-gray-950">
+  <div id="root">
+    <div class="preloader-root">
+      <!-- Inlined Logo SVG for 0ms loading -->
+      <svg class="preloader-logo" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16 2L4 8V24L16 30L28 24V8L16 2Z" stroke="#FF7A00" stroke-width="2" stroke-linejoin="round" />
+        <path d="M16 8L8 12V20L16 24L24 20V12L16 8Z" fill="#FF7A00" />
+      </svg>
+      <div class="preloader-bar">
+        <div class="preloader-progress"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

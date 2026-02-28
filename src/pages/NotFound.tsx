@@ -18,7 +18,7 @@ const NotFound = () => {
                             </div>
 
                             <h1 className="text-5xl lg:text-7xl font-extrabold text-gray-900 dark:text-white mb-6 tracking-tight leading-tight">
-                                Page <span className="text-brand-primary">Not Found.</span>
+                                <span className="text-brand-primary">Page Not Found</span>
                             </h1>
 
                             <p className="text-lg lg:text-xl text-gray-600 dark:text-gray-400 mb-10 leading-relaxed max-w-2xl mx-auto">

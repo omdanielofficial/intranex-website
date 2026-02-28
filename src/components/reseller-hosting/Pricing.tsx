@@ -103,7 +103,7 @@ export const ResellerHostingPricing = () => {
 
                                     <div className="w-full mb-8">
                                         <button className="w-full bg-brand-primary hover:bg-brand-secondary text-white font-bold py-3.5 rounded-lg transition-all duration-300 transform active:scale-95 text-lg">
-                                            Order Now
+                                            Coming Soon
                                         </button>
                                     </div>
 
@@ -133,23 +133,23 @@ export const ResellerHostingPricing = () => {
                 {resellerHostingConfig.addonCpanel && (
                     <div className="mt-20 max-w-3xl mx-auto">
                         <div className="text-center mb-8">
-                            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Additional cPanel Accounts</h3>
-                            <p className="text-gray-500 dark:text-gray-400">Scale your reseller business with more accounts as you grow.</p>
+                            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Need Some More Storage?</h3>
+                            <p className="text-gray-500 dark:text-gray-400">Increase your amount of disk storage without switching plans. </p>
                         </div>
 
                         <div className="overflow-hidden bg-white dark:bg-gray-800 rounded-xl border border-gray-100 dark:border-gray-700">
                             <table className="w-full text-left border-collapse">
                                 <thead>
                                     <tr className="bg-gray-50 dark:bg-gray-900/50 border-b border-gray-100 dark:border-gray-700">
-                                        <th className="py-4 px-6 text-sm font-bold text-gray-700 dark:text-gray-300 uppercase tracking-wider">Total Accounts</th>
-                                        <th className="py-4 px-6 text-sm font-bold text-gray-700 dark:text-gray-300 uppercase tracking-wider text-right">Price per Month</th>
+                                        <th className="py-4 px-6 text-sm font-bold text-gray-700 dark:text-gray-300 uppercase tracking-wider">Extra Storage</th>
+                                        <th className="py-4 px-6 text-sm font-bold text-gray-700 dark:text-gray-300 uppercase tracking-wider text-right">Added Price</th>
                                     </tr>
                                 </thead>
                                 <tbody className="divide-y divide-gray-100 dark:divide-gray-700">
                                     {resellerHostingConfig.addonCpanel.map((addon, idx) => (
                                         <tr key={idx} className="hover:bg-gray-50 dark:hover:bg-gray-700/50 transition-colors">
                                             <td className="py-4 px-6 text-gray-800 dark:text-gray-200 font-medium">
-                                                {addon.count} cPanel Accounts
+                                                {addon.count}GB NVMe
                                             </td>
                                             <td className="py-4 px-6 text-gray-800 dark:text-white font-bold text-right">
                                                 {currency}{addon.price}<span className="text-gray-400 text-sm font-normal">/mo</span>

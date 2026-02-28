@@ -19,12 +19,12 @@ export const SharedHostingFeatures = () => {
 
                     <div className="w-full lg:w-1/2 order-1 lg:order-2">
                         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
-                            Easy Essential Features for Beginners
+                            DirectAdmin Panel + One-Click App Installs
                         </h2>
                         <div className="space-y-6 text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
                             <p>
                                 Our hosting services cover all the essential features you need to build and run your website with ease.
-                                With a <span className="font-bold text-gray-900 dark:text-white">familiar and user-friendly cPanel control panel</span>, managing your website, email, and domains becomes simple—even for beginners.
+                                With a <span className="font-bold text-gray-900 dark:text-white">familiar and user-friendly DirectAdmin control panel</span>, managing your website, email, and domains becomes simple — even for beginners.
                             </p>
                             <p>
                                 Get access to <span className="font-bold text-gray-900 dark:text-white">400+ ready-to-use applications</span>, including WordPress, online stores, marketing tools, news sites, company profiles, blogs, and more.
@@ -40,7 +40,7 @@ export const SharedHostingFeatures = () => {
 
                     <div className="w-full lg:w-1/2">
                         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
-                            Now with Node.js Support
+                            Node.js Support Included
                         </h2>
                         <div className="space-y-6 text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
                             <p>
@@ -80,11 +80,11 @@ export const SharedHostingFeatures = () => {
 
                     <div className="w-full lg:w-1/2 order-1 lg:order-2">
                         <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
-                            Built for Developers & Power Users
+                            Built for Developers
                         </h2>
                         <div className="space-y-6 text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
                             <p>
-                                <span className="font-bold text-gray-900 dark:text-white">Advanced and Pro plans</span> unlock powerful features for more complex workloads, including:
+                                <span className="font-bold text-gray-900 dark:text-white">Scale and Advanced plans</span> unlock powerful features for more complex workloads, including:
                             </p>
                             <div className="flex flex-wrap gap-2">
                                 {["Python", "Ruby", "Golang", "Rust", "Redis", "Memcached", "SSH", "Bash", "Git", "MongoDB"].map((tech, i) => (
@@ -94,7 +94,7 @@ export const SharedHostingFeatures = () => {
                                 ))}
                             </div>
                             <p>
-                                Developers and power users can deploy and run advanced applications effortlessly—without worrying about time-consuming server administration.
+                                Developers and power users can deploy and run advanced applications effortlessly — without worrying about time-consuming server administration.
                             </p>
                         </div>
                     </div>

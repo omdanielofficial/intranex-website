@@ -9,15 +9,15 @@ const features = [
         bg: "bg-sky-100"
     },
     {
-        title: "30-Day Money-Back Guarantee",
-        description: "Customer satisfaction comes first. All hosting plans are backed by a 100% money-back guarantee within the first 30 days.",
+        title: "Money-Back Guarantee",
+        description: "Customer satisfaction is our focus. Most plans are backed by a money-back guarantee within the first 48 hours of purchase.",
         icon: RefreshCw,
         color: "text-amber-500",
         bg: "bg-amber-100"
     },
     {
         title: "Trusted & Secure",
-        description: "Trusted by over 200,000 customers, with backup systems located across two separate data centers for enhanced reliability and security.",
+        description: "Trusted by over 200 customers, with backup systems located across two separate data centres for enhanced reliability and security.",
         icon: ShieldCheck,
         color: "text-emerald-500",
         bg: "bg-emerald-100"
@@ -33,7 +33,7 @@ export const SupportGuarantee = () => {
 
                     <div className="w-full lg:w-[28%] lg:pr-10 lg:border-r-[3px] border-brand-primary flex flex-col justify-center mb-8 lg:mb-0 text-center lg:text-left">
                         <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white mb-4 leading-tight">
-                            Support & After-Sales Guarantee
+                            Support Promise
                         </h2>
                         <p className="text-gray-600 dark:text-gray-400 leading-relaxed text-sm lg:text-base">
                             Our commitment goes beyond pre-sales questions. We provide reliable support and after-sales service to ensure your hosting experience stays smooth and worry-free.

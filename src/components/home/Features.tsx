@@ -1,19 +1,19 @@
-import { Cpu, Wifi, HardDrive, DollarSign, Server, ShieldCheck } from 'lucide-react';
+import { Cpu, Wifi, HardDrive, DollarSign, ShieldCheck, ShieldBan } from 'lucide-react';
 
 const features = [
     {
         icon: Cpu,
-        title: "Lightning-Fast CPUs",
-        description: "Our infrastructure is powered by high-end CPUs, including AMD EPYC™ Genoa and Milan series, delivering exceptional performance for compute-intensive workloads."
+        title: "Modern CPUs",
+        description: "Our infrastructure is powered by high-end CPUs, including the AMD Ryzen™ 9 series, delivering exceptional performance for compute-intensive workloads."
     },
     {
         icon: Wifi,
-        title: "High-Speed Network",
-        description: "Enjoy ultra-fast connectivity with up to 10 Gbit/s network uplinks in most locations — significantly faster than standard cloud server offerings."
+        title: "Excellent Network",
+        description: "Enjoy ultra-fast connectivity with up to 10 Gbps network uplinks available in most locations — significantly faster than standard offerings."
     },
     {
         icon: HardDrive,
-        title: "All-NVMe Storage",
+        title: "NVMe Storage",
         description: "Every server is equipped with high-performance NVMe SSDs, ensuring ultra-low latency, faster I/O, and consistently high throughput for your data."
     },
     {
@@ -22,14 +22,14 @@ const features = [
         description: "We deliver enterprise-grade performance at a fraction of the cost, making high-performance cloud infrastructure accessible without hidden fees."
     },
     {
-        icon: Server,
-        title: "Owned Infrastructure",
-        description: "We operate on fully owned hardware across nearly all regions, allowing us to maintain strict quality control, higher reliability, and competitive pricing."
+        icon: ShieldBan,
+        title: "DDoS Protection",
+        description: "Keep your servers online with enterprise-grade DDoS attack mitigation, including network filtering and protection layers."
     },
     {
         icon: ShieldCheck,
-        title: "Reliable by Design",
-        description: "All services include a 99.95% uptime SLA, backed by enterprise hardware, redundant systems, and continuous monitoring for maximum reliability."
+        title: "Uptime Guarantee",
+        description: "All services include a 99.99% uptime SLA, backed by redundant systems and monitoring for maximum reliability."
     }
 ];
 

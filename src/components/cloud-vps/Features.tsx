@@ -4,17 +4,17 @@ export const CloudVPSFeatures = () => {
     const features = [
         {
             title: "Lightning Fast CPUs",
-            description: "Powered by the industry's leading processors, including AMD EPYC™ Genoa and Milan series. We ensure your VPS handles intensive workloads with ease.",
+            description: "Powered by the industry's leading processors, including the AMD Ryzen™ series. We ensure your VPS handles intensive workloads with ease.",
             icon: Cpu
         },
         {
-            title: "10Gbps Network",
-            description: "Deploy with confidence using our 10 Gbit/s network uplinks. Experience low latency and massive bandwidth capacity that outperforms standard cloud offerings.",
+            title: "Robust Network",
+            description: "High-speed network connections to ensure the best routes for your traffic. No need to worry about your network.",
             icon: Network
         },
         {
             title: "All NVMe Storage",
-            description: "We don't compromise on speed. Every VPS instance is backed by enterprise-grade NVMe SSDs for rapid I/O operations and instant data access.",
+            description: "Every VPS is backed by enterprise-grade NVMe SSDs for rapid I/O operations and instant data access.",
             icon: HardDrive
         },
         {
@@ -23,13 +23,13 @@ export const CloudVPSFeatures = () => {
             icon: DollarSign
         },
         {
-            title: "Owned Infrastructure",
-            description: "We maintain full control over our hardware. By owning our infrastructure across global regions, we guarantee superior quality, security, and stability.",
+            title: "Linux & Windows",
+            description: "Choose from dozens of Linux or Windows operating systems and install in a few clicks, or use your own ISO.",
             icon: Server
         },
         {
             title: "Reliable by Design",
-            description: "Sleep soundly with our 99.95% Uptime SLA. Our redundant power systems and network architecture ensure your services remain online around the clock.",
+            description: "Sleep soundly with our 99.99% uptime guarantee. Our redundant power systems and network architecture ensure your services remain online around the clock.",
             icon: ShieldCheck
         }
     ];
@@ -39,7 +39,7 @@ export const CloudVPSFeatures = () => {
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 dark:text-white mb-4 tracking-tight">
-                        Why Choose Our VPS
+                        Why Choose Our VPSs?
                     </h2>
                     <p className="text-lg text-gray-600 dark:text-gray-400">
                         Built on top-tier hardware to deliver the performance your applications deserve.

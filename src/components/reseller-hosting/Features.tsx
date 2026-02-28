@@ -3,18 +3,18 @@ import { Tag, LayoutDashboard, MapPin, Lock, Server, LayoutTemplate } from 'luci
 export const ResellerHostingFeatures = () => {
     const features = [
         {
-            title: "100% Whitelabel",
-            description: "Use your own brand entirely without any Voltera Cloud branding visible to your clients.",
+            title: "100% White Label",
+            description: "Use your own brand entirely without any of our branding visible to your clients; while still running on our infrastructure.",
             icon: Tag
         },
         {
-            title: "WHM & cPanel",
-            description: "Industry-standard cPanel for your clients and powerful WHM for you to manage accounts easily.",
+            title: "DirectAdmin & Blesta",
+            description: "Industry-standard DirectAdmin for you to manage accounts easily, plus a free Blesta license for billing clients.",
             icon: LayoutDashboard
         },
         {
-            title: "Multiple Server Locations",
-            description: "Choose the best location for your hosting: Indonesia, Singapore, or Germany.",
+            title: "Great Locations",
+            description: "Choose your preferred location to ensure fast load speeds and boost SEO rankings for client websites.",
             icon: MapPin
         },
         {
@@ -23,13 +23,13 @@ export const ResellerHostingFeatures = () => {
             icon: Lock
         },
         {
-            title: "Custom Nameserver",
-            description: "Establish your brand identity by using your own custom private nameservers (e.g., ns1.yourbrand.com).",
+            title: "Custom Nameservers",
+            description: "Establish your brand identity by using your own custom private nameservers.",
             icon: Server
         },
         {
-            title: "Website Builder",
-            description: "Create professional websites easily with a drag & drop builder suitable for beginners.",
+            title: "Softaculous Installer",
+            description: "Give your clients access to the one-click Softaculous app installer.",
             icon: LayoutTemplate
         }
     ];
@@ -42,7 +42,7 @@ export const ResellerHostingFeatures = () => {
                         Reseller Hosting Features
                     </h2>
                     <p className="text-lg text-gray-600 dark:text-gray-400">
-                        Get these powerful features when you subscribe to Voltera Cloud reseller hosting packages.
+                        Get these powerful features when you choose our reseller hosting packages.
                     </p>
                 </div>
 

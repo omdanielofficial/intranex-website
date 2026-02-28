@@ -46,7 +46,7 @@ export const CloudVPSControlPanel = () => {
                             Features for every user
                         </h2>
                         <p className="text-lg text-gray-600 dark:text-gray-400 mb-10 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                            We built our control panel from the ground up to deliver the most in-demand features through an intuitive, easy-to-use interface - giving you complete control and effortless system management.
+                            Our panel uses the VirtFusion software to deliver the most in-demand features through an intuitive, easy-to-use interface - giving you complete control and effortless system management.
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
@@ -75,7 +75,7 @@ export const CloudVPSControlPanel = () => {
                         <div className="relative rounded-xl overflow-hidden bg-white dark:bg-gray-950">
                             <img
                                 src={panelImage}
-                                alt="Voltera Control Panel"
+                                alt="Intranex Control Panel"
                                 className="w-full h-auto object-cover"
                             />
                         </div>

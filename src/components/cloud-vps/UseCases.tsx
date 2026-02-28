@@ -28,7 +28,7 @@ const useCases = [
         icon: Gamepad2,
     },
     {
-        title: 'E-commerce',
+        title: 'Online Stores',
         description: 'Run WooCommerce, Magento, or custom e-commerce platforms with scalable resources.',
         icon: ShoppingCart,
     },
@@ -53,7 +53,7 @@ export const CloudVPSUseCases = () => {
                         Power any workload
                     </h2>
                     <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-                        From simple websites to complex applications, Voltera VPS handles it all.
+                        From simple websites to complex applications, our VPSs handle it all.
                     </p>
                 </div>
 

@@ -1,4 +1,3 @@
-import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ctaImage from '../../assets/cta.webp';
 
@@ -27,30 +26,29 @@ export const CTA = () => {
 
                         <div className="max-w-xl text-center lg:text-left order-1 lg:order-2 lg:w-1/2 pb-12 lg:pb-20">
                             <div className="inline-block px-4 py-1.5 bg-white/20 rounded-full text-white text-xs font-bold mb-6 border border-white/20 tracking-widest">
-                                24/7 Expert Support
+                                Human Support, No Chatbots
                             </div>
                             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 tracking-tight leading-tight">
                                 We're here anytime <br /> you need us.
                             </h2>
                             <p className="text-lg text-white/90 mb-8 font-medium leading-relaxed">
-                                Our expert support team is available 24/7/365 to help you with any issues. No bots, just real engineers ready to assist.
+                                Need help choosing a plan? Our expert team is always available to find a solution that works for you.
                             </p>
 
                             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
-                                <button
-                                    onClick={() => (window as any).$crisp.push(['do', 'chat:open'])}
-                                    className="min-w-[170px] px-8 py-3.5 bg-white text-brand-primary font-bold rounded-lg hover:bg-gray-50 transition-colors duration-200 flex items-center justify-center gap-2"
-                                    aria-label="Chat with support"
-                                >
-                                    Chat With Us
-                                    <ArrowRight size={18} />
-                                </button>
                                 <Link
                                     to="/contact"
+                                    className="min-w-[170px] px-8 py-3.5 bg-white text-brand-primary font-bold rounded-lg hover:bg-gray-50 transition-colors duration-200 flex items-center justify-center gap-2"
+                                    aria-label="View contact details"
+                                >
+                                    Get in Touch
+                                </Link>
+                                <Link
+                                    to="https://docs.intranex.org"
                                     className="min-w-[170px] px-8 py-3.5 bg-transparent border border-white/40 text-white font-bold rounded-lg hover:bg-white/10 transition-colors duration-200 text-center"
                                     aria-label="View contact details"
                                 >
-                                    Contact Us
+                                    Read our Docs
                                 </Link>
                             </div>
                         </div>

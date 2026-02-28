@@ -4,20 +4,20 @@ export const announcementConfig = {
 
     desktop: {
         badge: "Limited Time Sale",
-        badgeHighlight: "Shared Hosting 50% OFF",
-        text: "Launch your website today with our ultra-fast NVMe SSD hosting. Limited slots available!",
+        badgeHighlight: "UP TO 40% OFF",
+        text: "Launch your brand new website or server with Intranex this month!",
         linkText: "Claim Discount",
-        linkPath: "/shared-hosting",
+        linkPath: "/promo",
         dotColor: "bg-emerald-400"
     },
 
 
     mobile: {
         badge: "SALE",
-        badgeHighlight: "50% OFF",
-        text: "NVMe Hosting",
+        badgeHighlight: "40% OFF",
+        text: "VPS & Web Hosting",
         linkText: "Claim",
-        linkPath: "/shared-hosting",
+        linkPath: "/promo",
         dotColor: "bg-emerald-400"
     }
 };

@@ -4,8 +4,8 @@ import { ArrowRight } from 'lucide-react';
 import ReactCountryFlag from 'react-country-flag';
 
 export const CloudVPSPricing = () => {
-    const [selectedType, setSelectedType] = useState('budget');
-    const [selectedRegion, setSelectedRegion] = useState('de-fra');
+    const [selectedType, setSelectedType] = useState('linux');
+    const [selectedRegion, setSelectedRegion] = useState('uk-ldn');
 
 
     const planKey = selectedType as keyof typeof cloudVPSConfig.plans;
@@ -88,7 +88,7 @@ export const CloudVPSPricing = () => {
                                     <thead>
                                         <tr className="bg-gray-900 dark:bg-black text-white text-xs uppercase tracking-wider font-bold">
                                             <th className="px-6 py-5">Plan</th>
-                                            <th className="px-6 py-5">vCPU</th>
+                                            <th className="px-6 py-5">Cores</th>
                                             <th className="px-6 py-5">RAM</th>
                                             <th className="px-6 py-5">Storage</th>
                                             <th className="px-6 py-5">Traffic</th>
@@ -104,15 +104,16 @@ export const CloudVPSPricing = () => {
                                                 <td className="px-6 py-4 text-gray-600 dark:text-gray-300">{plan.ram}</td>
                                                 <td className="px-6 py-4 text-gray-600 dark:text-gray-300">{plan.storage}</td>
                                                 <td className="px-6 py-4 text-gray-600 dark:text-gray-300">{plan.bandwidth}</td>
-                                                <td className="px-6 py-4 font-bold text-gray-900 dark:text-white">
-                                                    {cloudVPSConfig.currency}{plan.price}/mo
-                                                </td>
+<td className="px-6 py-4 font-bold text-gray-900 dark:text-white">
+  {cloudVPSConfig.currency}
+  {Number(plan.price).toFixed(2)}/mo
+</td>
                                                 <td className="px-6 py-4 text-right">
                                                     <a
                                                         href={plan.links[selectedRegion as keyof typeof plan.links] || '#'}
                                                         className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-bold transition-all bg-brand-primary text-white hover:bg-brand-secondary"
                                                     >
-                                                        Purchase
+                                                        Configure
                                                         <ArrowRight size={16} />
                                                     </a>
                                                 </td>

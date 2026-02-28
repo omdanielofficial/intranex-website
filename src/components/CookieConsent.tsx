@@ -156,7 +156,7 @@ export const CookieConsent = () => {
 
                             <div className="p-6 max-h-[50vh] overflow-y-auto overflow-x-hidden md:max-h-[60vh]">
                                 <p className="text-sm text-gray-500 dark:text-gray-400 mb-6 leading-relaxed">
-                                    Manage how we use cookies to provide our services. You can change these settings at any time in the footer.
+                                    Manage how we use cookies to provide our services. You can change these settings at any time.
                                 </p>
 
                                 <div className="space-y-3">

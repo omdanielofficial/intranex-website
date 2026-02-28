@@ -21,14 +21,14 @@ export const CloudVPSHero = () => {
 
                     <div className="w-full lg:w-[55%] flex flex-col items-center lg:items-start text-center lg:text-left justify-center min-h-[300px] lg:min-h-[400px]">
                         <h1 className="text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white lg:text-7xl leading-[1.1] mb-6">
-                            Cloud VPS <br />
+ 
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-primary to-brand-secondary">
-                                Total Control.
+                                Virtual Private Servers
                             </span>
                         </h1>
 
                         <p className="text-lg text-gray-500 dark:text-gray-400 lg:text-xl leading-relaxed max-w-xl">
-                            Scalable, secure, and high-performance virtual private servers with <span className="text-gray-900 dark:text-white font-bold">Root Access</span> and full flexibility.
+                            High-performance KVM virtual servers powered by <span className="text-gray-900 dark:text-white font-bold">latest generation</span> hardware. Deploy in seconds, scale with ease, and build your infrastructure without worrying about costs.
                         </p>
                     </div>
 

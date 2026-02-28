@@ -9,7 +9,7 @@ export interface SEOData {
 }
 
 export const siteConfig = {
-    name: 'Voltera Cloud',
-    url: 'https://voltera.cloud',
-    twitterHandle: '@volteracloud'
+    name: 'Intranex',
+    url: 'https://intranex.org',
+    twitterHandle: '@intranexuk'
 };

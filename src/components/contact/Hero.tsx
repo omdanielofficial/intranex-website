@@ -1,4 +1,4 @@
-import { Mail, Phone, MessageSquare, Clock } from 'lucide-react';
+import { Mail, MessageSquare, BookCheckIcon, MedalIcon } from 'lucide-react';
 
 export const ContactHero = () => {
     return (
@@ -6,13 +6,12 @@ export const ContactHero = () => {
             <div className="container mx-auto px-4 relative z-10">
                 <div className="max-w-3xl mx-auto text-center mb-16">
                     <h1 className="text-4xl lg:text-5xl font-extrabold text-gray-900 dark:text-white tracking-tight mb-6">
-                        Get in Touch with our <br />
                         <span className="text-brand-primary">
-                            Support Team
+                            Contact Us
                         </span>
                     </h1>
                     <p className="text-lg text-gray-500 dark:text-gray-400 leading-relaxed">
-                        We're here to help you 24/7. Choose the most convenient way to reach us.
+                        Choose the most convenient way to reach us. Our experienced team is available around the clock to assist customers with all kinds of enquiries.
                     </p>
                 </div>
 
@@ -20,35 +19,35 @@ export const ContactHero = () => {
                     {[
                         {
                             icon: MessageSquare,
-                            title: "Live Chat",
-                            desc: "Connect instantly with our agents.",
-                            action: "Start Chat",
+                            title: "Tickets",
+                            desc: "Create a ticket for sales enquiries, technical support, and billing assistance.",
+                            action: "Create Ticket",
                             theme: "emerald",
-                            link: "#"
+                            link: "https://client.intranex.org/submitticket.php"
                         },
                         {
                             icon: Mail,
-                            title: "Email Us",
-                            desc: "Send us a ticket anytime.",
-                            action: "Open Ticket",
+                            title: "Email",
+                            desc: "Send us an email for general requests, sponsorships, and business enquiries.",
+                            action: "Send Email",
                             theme: "sky",
-                            link: "mailto:support@voltera.cloud"
+                            link: "mailto:hello@intranex.org"
                         },
                         {
-                            icon: Phone,
-                            title: "Call Us",
-                            desc: "Mon-Fri from 9am to 6pm.",
-                            action: "+62 21 5550 1234",
+                            icon: BookCheckIcon,
+                            title: "Support Docs",
+                            desc: "Browse our extensive technical and API documentation to help you manage your services.",
+                            action: "Read Docs",
                             theme: "amber",
-                            link: "tel:+622155501234"
+                            link: "https://docs.intranex.org"
                         },
                         {
-                            icon: Clock,
-                            title: "Service Status",
-                            desc: "Check infrastructure health.",
-                            action: "View Status",
+                            icon: MedalIcon,
+                            title: "Enterprise Support",
+                            desc: "Enterprise clients receive priority support and have direct contact with our engineers.",
+                            action: "Learn More",
                             theme: "gray",
-                            link: "#"
+                            link: "/enterprise"
                         }
                     ].map((item, idx) => {
                         const isLiveChat = item.title === "Live Chat";

@@ -18,7 +18,7 @@ export const Footer = () => {
 
                                 <img
                                     src={logoMobile}
-                                    alt="Voltera"
+                                    alt="Intranex"
                                     width={32}
                                     height={32}
                                     className="block lg:hidden h-8 w-auto"
@@ -26,7 +26,7 @@ export const Footer = () => {
 
                                 <img
                                     src={logo}
-                                    alt="Voltera"
+                                    alt="Intranex"
                                     width={120}
                                     height={32}
                                     className="hidden lg:block dark:hidden h-8 w-auto"
@@ -34,34 +34,29 @@ export const Footer = () => {
 
                                 <img
                                     src={logoWhite}
-                                    alt="Voltera"
+                                    alt="Intranex"
                                     width={120}
                                     height={32}
                                     className="hidden dark:lg:block h-8 w-auto"
                                 />
                             </div>
-                            <p className="text-gray-500 dark:text-gray-400 leading-relaxed text-sm mb-6">
-                                Empowering global businesses with next-generation cloud infrastructure. Voltera Cloud combines elite NVMe performance with institutional-grade reliability for your most ambitious projects.
+                            <p className="text-gray-500 dark:text-gray-400 leading-relaxed text-sm mb-2">
+                                Intranex builds secure, scalable digital infrastructure for organisations that demand performance. From cloud compute to managed hosting and consultancy, we provide the backbone that keeps businesses running faster, smarter and without compromise.
                             </p>
                         </div>
 
                         <div className="space-y-4 text-sm text-gray-500 dark:text-gray-400">
-                            <p>Contact: <span className="text-gray-900 dark:text-gray-300">support@voltera.cloud</span></p>
+                            <p>Contact: <span className="text-gray-900 dark:text-gray-300">hello@intranex.org</span></p>
 
                             <div>
-                                <p className="mb-1">Address:</p>
+                                <p className="mb-1">Mail Address:</p>
                                 <p className="text-gray-900 dark:text-gray-300">
-                                    PT. Voltera Cloud Indonesia<br />
-                                    Menara Imperium, Lt. 15, Jl. H. R. Rasuna Said<br />
-                                    Jakarta Selatan, Indonesia 12980
+                                    82A James Carter Road<br />
+                                    Mildenhall<br />
+                                    United Kingdom, IP28 7DE
                                 </p>
                             </div>
                         </div>
-
-                        <p className="text-xs text-gray-500 dark:text-gray-400 mt-auto">
-                            PT. Voltera Cloud Indonesia, registered in Jakarta, Indonesia.<br />
-                            Tax ID: 42.123.456.7-013.000
-                        </p>
                     </div>
 
 
@@ -70,13 +65,12 @@ export const Footer = () => {
                             <h3 className="font-bold text-gray-900 dark:text-white mb-6">Solutions</h3>
                             <ul className="space-y-3">
                                 {[
-                                    { name: 'Shared Hosting', to: '/shared-hosting' },
-                                    { name: 'Cloud Hosting', to: '/cloud-hosting' },
-                                    { name: 'Reseller Hosting', to: '/reseller-hosting' },
-                                    { name: 'Cloud VPS', to: '/cloud-vps' },
-                                    { name: 'Dedicated Server', to: '/dedicated-server' },
-                                    { name: 'Colocation', to: '/colocation' },
-                                    { name: 'Domain Names', to: '/domain' }
+                                    { name: 'Web Hosting', to: '/web' },
+                                    { name: 'Virtual Private Servers', to: '/vps' },
+                                    { name: 'Dedicated Servers', to: '/dedicated' },
+                                    { name: 'Reseller Hosting', to: '/resellers' },
+                                    { name: 'Domains', to: '/domains' },
+                                    { name: 'Enterprise Solutions', to: '/enterprise' },
                                 ].map((item) => (
                                     <li key={item.name}>
                                         <Link to={item.to} className="text-gray-500 dark:text-gray-400 hover:text-brand-primary dark:hover:text-brand-primary transition-colors text-sm">
@@ -88,12 +82,12 @@ export const Footer = () => {
                         </div>
 
                         <div>
-                            <h3 className="font-bold text-gray-900 dark:text-white mb-6">Support</h3>
+                            <h3 className="font-bold text-gray-900 dark:text-white mb-6">Resources</h3>
                             <ul className="space-y-3">
                                 {[
-                                    { name: 'Contact Us', to: '/contact' },
-                                    { name: 'Documentation', to: '#' },
-                                    { name: 'Service Status', to: '#' },
+                                    { name: 'Documentation', to: 'https://docs.intranex.org/documentation' },
+                                    { name: 'Network Status', to: 'https://status.intranex.org' },
+                                    { name: 'Changelog', to: 'https://docs.intranex.org/changelog' },
                                     { name: 'Looking Glass', to: '#' }
                                 ].map((item) => (
                                     <li key={item.name}>
@@ -112,12 +106,14 @@ export const Footer = () => {
                         </div>
 
                         <div>
-                            <h3 className="font-bold text-gray-900 dark:text-white mb-6">Services</h3>
+                            <h3 className="font-bold text-gray-900 dark:text-white mb-6">Company</h3>
                             <ul className="space-y-3">
                                 {[
-                                    { name: 'Client Area', to: '#' },
-                                    { name: 'Affiliate Program', to: '#' },
-                                    { name: 'API Access', to: '#' }
+                                    { name: 'About Us ', to: '#' },
+                                    { name: 'Contact', to: '/contact' },
+                                    { name: 'Special Offers', to: '/promo' },
+                                    { name: 'Affiliate Program', to: 'https://client.intranex.org/affiliates.php' },
+                                    { name: 'Careers', to: 'mailto:careers@intranex.org' }             
                                 ].map((item) => (
                                     <li key={item.name}>
                                         {item.to === '#' ? (
@@ -138,11 +134,9 @@ export const Footer = () => {
                             <h3 className="font-bold text-gray-900 dark:text-white mb-6">Legal</h3>
                             <ul className="space-y-3">
                                 {[
-                                    { name: 'Fair Use Policy', to: '/legal/fair-use-policy' },
-                                    { name: 'Privacy Policy', to: '/legal/privacy-policy' },
                                     { name: 'Terms of Service', to: '/legal/terms-of-service' },
-                                    { name: 'SLA', to: '/legal/sla' },
-                                    { name: 'Refund Policy', to: '/legal/refund-policy' }
+                                    { name: 'Privacy Policy', to: '/legal/privacy-policy' },
+                                    { name: 'Service Level Agreement', to: '/legal/sla' },
                                 ].map((item) => (
                                     <li key={item.name}>
                                         <Link to={item.to} className="text-gray-500 dark:text-gray-400 hover:text-brand-primary dark:hover:text-brand-primary transition-colors text-sm">
@@ -158,7 +152,7 @@ export const Footer = () => {
 
                 <div className="pt-8 border-t border-gray-200 dark:border-gray-900 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-xs text-gray-500 dark:text-gray-500">
-                        © {new Date().getFullYear()} PT. Voltera Cloud Indonesia. All rights reserved.
+                        © {new Date().getFullYear()} Intranex Limited. All rights reserved. Registered in England & Wales under CRN 16068461.
                     </p>
                     <div className="flex items-center gap-6">
                         <button
@@ -167,8 +161,8 @@ export const Footer = () => {
                         >
                             Cookie Preferences
                         </button>
-                        <a href="#" className="text-xs text-gray-500 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors">
-                            System Status
+                        <a href="mailto:hello@intranex.org" className="text-xs text-gray-500 dark:text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors">
+                            Report Abuse
                         </a>
                     </div>
                 </div>

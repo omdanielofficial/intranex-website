@@ -35,7 +35,7 @@ export const DomainHero = () => {
                     </h1>
 
                     <p className="text-xl text-gray-500 dark:text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-                        Secure your brand with our wide selection of TLDs. Simple management, free privacy protection, and instant activation.
+                        Secure your online presence with our wide selection of domain names. Get easy management, privacy protection, and instant activation.
                     </p>
 
 
@@ -45,7 +45,7 @@ export const DomainHero = () => {
                         </div>
                         <input
                             type="text"
-                            placeholder="Search your domain..."
+                            placeholder="Search for your domain..."
                             value={query}
                             onChange={(e) => setQuery(e.target.value)}
                             className="w-full h-14 lg:h-16 pl-12 lg:pl-14 pr-14 lg:pr-36 rounded-2xl bg-white dark:bg-gray-900 border-2 border-gray-100 dark:border-gray-800 text-base lg:text-lg font-medium text-gray-900 dark:text-white focus:outline-none focus:border-brand-primary focus:ring-4 focus:ring-brand-primary/10 transition-all placeholder:text-gray-400"
@@ -70,12 +70,8 @@ export const DomainHero = () => {
                             <span className="text-brand-primary font-bold">{getPrice('.net')}</span>
                         </div>
                         <div className="flex items-center gap-2">
-                            <span className="font-bold text-gray-900 dark:text-white text-lg">.io</span>
-                            <span className="text-brand-primary font-bold">{getPrice('.io')}</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                            <span className="font-bold text-gray-900 dark:text-white text-lg">.id</span>
-                            <span className="text-brand-primary font-bold">{getPrice('.id')}</span>
+                            <span className="font-bold text-gray-900 dark:text-white text-lg">.org</span>
+                            <span className="text-brand-primary font-bold">{getPrice('.org')}</span>
                         </div>
                     </div>
                 </div>

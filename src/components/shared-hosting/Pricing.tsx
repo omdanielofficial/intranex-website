@@ -57,9 +57,9 @@ export const SharedHostingPricing = () => {
                                     <div className="absolute top-0 right-0 left-0 flex justify-center -mt-0">
                                         <div className={`${plan.badgeColor} text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-b-lg flex items-center gap-1`}>
                                             {plan.badge === 'Best Value' && <span>{currency}</span>}
-                                            {plan.badge === 'Best Performance' && <span>★</span>}
+                                            {plan.badge === 'Recommended' && <span>★</span>}
                                             {plan.badge}
-                                        </div>
+                                        </div>  
                                     </div>
                                 )}
 
@@ -97,7 +97,7 @@ export const SharedHostingPricing = () => {
                                             href={plan.link || '#'}
                                             className="inline-flex w-full bg-brand-primary hover:bg-brand-secondary text-white font-bold py-3.5 rounded-lg transition-all duration-300 transform active:scale-95 text-lg justify-center items-center"
                                         >
-                                            {plan.buttonText || "Order Now"}
+                                            {"Select Plan"}
                                         </a>
                                     </div>
 

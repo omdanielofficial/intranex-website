@@ -1,0 +1,19 @@
+{
+    "name": "Voltera Cloud",
+    "short_name": "Voltera",
+    "icons": [
+        {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        },
+        {
+            "src": "/pwa-icon-512.png",
+            "sizes": "192x192 512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#FF7A00",
+    "background_color": "#030712",
+    "display": "standalone"
+}

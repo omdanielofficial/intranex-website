@@ -6,13 +6,12 @@ import { CookieConsent } from './components/CookieConsent';
 
 
 const Home = lazy(() => import('./pages/Home'));
-const SharedHosting = lazy(() => import('./pages/SharedHosting'));
-const CloudHosting = lazy(() => import('./pages/CloudHosting'));
+const WebHosting = lazy(() => import('./pages/SharedHosting'));
 const ResellerHosting = lazy(() => import('./pages/ResellerHosting'));
-const CloudVPS = lazy(() => import('./pages/CloudVPS'));
-const DedicatedServer = lazy(() => import('./pages/DedicatedServer'));
-const Colocation = lazy(() => import('./pages/Colocation'));
-const Domain = lazy(() => import('./pages/Domain'));
+const VirtualPrivateServers = lazy(() => import('./pages/CloudVPS'));
+const DedicatedServers = lazy(() => import('./pages/DedicatedServer'));
+const EnterpriseSolutions = lazy(() => import('./pages/Colocation'));
+const Domains = lazy(() => import('./pages/Domain'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Legal = lazy(() => import('./pages/Legal'));
 const Promo = lazy(() => import('./pages/Promo'));
@@ -33,13 +32,12 @@ function App() {
         <Suspense fallback={<PageLoader />}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/shared-hosting" element={<SharedHosting />} />
-            <Route path="/cloud-hosting" element={<CloudHosting />} />
-            <Route path="/reseller-hosting" element={<ResellerHosting />} />
-            <Route path="/cloud-vps" element={<CloudVPS />} />
-            <Route path="/dedicated-server" element={<DedicatedServer />} />
-            <Route path="/colocation" element={<Colocation />} />
-            <Route path="/domain" element={<Domain />} />
+            <Route path="/web" element={<WebHosting />} />
+            <Route path="/resellers" element={<ResellerHosting />} />
+            <Route path="/vps" element={<VirtualPrivateServers />} />
+            <Route path="/dedicated" element={<DedicatedServers />} />
+            <Route path="/enterprise" element={<EnterpriseSolutions />} />
+            <Route path="/domains" element={<Domains />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/legal" element={<Legal />} />
             <Route path="/legal/:docId" element={<Legal />} />

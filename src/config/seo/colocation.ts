@@ -1,14 +1,14 @@
 import type { SEOData } from './types';
 
 export const colocationSEO: SEOData = {
-    title: 'Enterprise Colocation Services | Global Data Center Solutions',
-    description: 'Secure and reliable colocation services in strategic global locations. Tier-3 facilities with redundant power, advanced cooling, and high-speed global connectivity. Built for enterprise infrastructure.',
+    title: 'Enterprise Solutions | Managed Cloud & IT Consultancy',
+    description: 'Secure and reliable enterprise solutions for your cloud infrastructure. We offer system administration, monitoring, software installs, strategic consultations, and more.',
     keywords: [
-        'Enterprise Colocation Services',
-        'Data Center Colocation',
-        'Global Colocation Provider',
-        'Tier 3 Data Center Colocation',
-        'Server Colocation Solutions'
+        'Enterprise Cloud Services',
+        'IT Consultancy',
+        'Global Cloud Provider',
+        'System Administration',
+        'Managed Infrastructure Design'
     ],
     ogType: 'product'
 };

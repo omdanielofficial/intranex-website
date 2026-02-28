@@ -9,14 +9,14 @@ export const PromoHero = () => {
 
                     <div className="max-w-4xl mx-auto flex flex-col items-center">
                         <h1 className="text-4xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.1] mb-6">
-                            Exclusive Deals on <br />
+                            Exclusive deals on <br />
                             <span className="text-white/90">
-                                Hosting, VPS & Domains
+                                hosting, servers, and more
                             </span>
                         </h1>
 
                         <p className="text-lg text-white/90 lg:text-xl leading-relaxed mb-8 max-w-2xl">
-                            Enjoy limited-time offers on our premium services. Get enterprise-grade performance with <span className="text-white font-bold">NVMe SSD Storage</span>, <span className="text-white font-bold">10Gbps Uplinks</span>, and rock-solid security at unbeatable prices.
+                            Enjoy limited-time offers on our premium services. Get enterprise-grade performance with <span className="text-white font-bold">24/7 support</span>, <span className="text-white font-bold">99.99% uptime</span>, and rock-solid security at unbeatable prices.
                         </p>
 
 

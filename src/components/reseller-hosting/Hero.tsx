@@ -20,25 +20,25 @@ export const ResellerHostingHero = () => {
 
                     <div className="w-full lg:w-[55%] flex flex-col items-center lg:items-start text-center lg:text-left justify-center">
                         <div className="inline-block px-4 py-1.5 rounded-full bg-white/20 border border-white/30 text-white font-bold text-sm tracking-wide mb-6">
-                            Start Your Hosting Business
+                            Coming Soon to Intranex
                         </div>
 
                         <h1 className="text-5xl font-extrabold tracking-tight text-white lg:text-7xl leading-[1.1] mb-6">
-                            Reseller Hosting <br />
+                            White Label <br />
                             <span className="text-white/90">
-                                White Label.
+                                Reseller Hosting
                             </span>
                         </h1>
 
                         <p className="text-lg text-white/90 lg:text-xl leading-relaxed mb-8 max-w-xl">
-                            Create your own hosting company with our 100% white-label reseller plans. Manage unlimited clients with <span className="text-white font-bold">WHM & cPanel</span>. We handle the tech, you keep the profits.
+                            Create your own hosting company with our 100% white-label reseller plans. Manage unlimited clients with <span className="text-white font-bold">DirectAdmin and Blesta</span>. We handle the tech, you keep the profits.
                         </p>
 
                         <div className="mt-2 flex flex-wrap justify-center lg:justify-start gap-4">
                             {[
-                                "100% Whitelabel",
-                                "Free WHMCS License",
-                                "24/7 Priority Support"
+                                "Use Your Own Branding",
+                                "Free Blesta License",
+                                "Advanced Customisation & Integrations"
                             ].map((feature, i) => (
                                 <div key={i} className="flex items-center gap-2.5 px-5 py-2.5 bg-white/10 border border-white/20 rounded-full text-white font-semibold transition-all hover:bg-white/20 cursor-default">
                                     <div className="bg-white text-brand-primary rounded-full p-0.5 flex items-center justify-center">

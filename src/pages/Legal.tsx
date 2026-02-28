@@ -33,10 +33,12 @@ const Legal = () => {
             <div className="bg-gradient-to-br from-brand-primary via-brand-secondary to-brand-tertiary pt-32 pb-12 transition-colors duration-300">
                 <div className="container mx-auto px-4">
                     <h1 className="text-3xl lg:text-5xl font-extrabold text-white tracking-tight mb-4">
-                        Legal Center
+                        Legal Policies
                     </h1>
                     <p className="text-lg text-white/90 max-w-2xl">
-                        Transparency is key. Here you will find all the details about our policies, terms, and agreements.
+                        Here you will find all the details regarding our policies, terms, and agreements.
+                        <br></br>
+                        Legal Enquiries: <b>legal@intranex.org</b>
                     </p>
                 </div>
             </div>

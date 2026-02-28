@@ -4,32 +4,32 @@ const features = [
     {
         icon: Cpu,
         title: "Lightning Fast CPUs",
-        description: "Powered by industry-leading computation. We deploy high-frequency AMD EPYC™ Genoa and Milan processors to crush your most intensive workloads."
+        description: "Powered by industry-leading computation. We deploy high-frequency AMD Ryzen™ processors to crush your most intensive workloads."
     },
     {
         icon: Network,
-        title: "BGP & BYOIP",
-        description: "Bring Your Own IP (BYOIP) and BGP sessions are available at no extra cost. Maintain control over your network routing and IP reputation."
+        title: "IPv6 Supported",
+        description: "Most servers come with IPv6 addresses in addition to traditional IPv4 addresses. Embrace the future and meet modern network standards."
     },
     {
         icon: HardDrive,
-        title: "SSD Storage",
+        title: "NVMe Storage",
         description: "Enterprise-grade NVMe SSDs come standard. Experience ultra-low latency and blazing fast I/O for databases and high-traffic applications."
     },
     {
         icon: Settings,
-        title: "Fully Customizable",
-        description: "Tailor your server to your exact specifications. From RAM upgrades to additional storage arrays, build the perfect machine for your needs."
+        title: "Custom Configurations",
+        description: "Tailor your server to your exact specifications. Reach out to us and build the perfect machine for your needs."
     },
     {
         icon: Server,
-        title: "Owned Infrastructure",
-        description: "We own and operate our hardware. By eliminating middlemen, we deliver premium performance at unbeatable price points."
+        title: "Full Root Access",
+        description: "You have full control over your infrastructure. Take advantage of pure bare metal power without a virtualisation layer."
     },
     {
         icon: ShieldCheck,
         title: "Reliability First",
-        description: "Backed by a rock-solid 99.95% Uptime SLA. Our redundant power and network infrastructure ensures your services stay online, always."
+        description: "Backed by a rock-solid 99.99% uptime guarantee thanks to our redundant power and network infrastructure."
     }
 ];
 
@@ -39,7 +39,7 @@ export const DedicatedServerFeatures = () => {
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-                        Why Choose Our Dedicated Servers
+                        Why Choose Our Dedicated Servers?
                     </h2>
                     <p className="text-gray-600 dark:text-gray-400 text-lg">
                         High-performance bare metal hardware designed for your most demanding needs.

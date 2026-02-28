@@ -3,28 +3,28 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const faqs = [
     {
-        question: "What is Reseller Hosting?",
-        answer: "Reseller Hosting allows you to purchase hosting resources (disk space, bandwidth, etc.) from us and redistribute them to your own clients. You act as the hosting provider, set your own prices, and keep 100% of the profits."
+        question: "What is reseller hosting?",
+        answer: "Reseller hosting allows you to purchase hosting resources (disk space, bandwidth, etc.) from us and redistribute them to your own clients. You act as the hosting provider, set your own prices, and keep 100% of the profits."
     },
     {
-        question: "Is it 100% White Label?",
-        answer: "Yes, our Reseller Hosting is 100% white label. Your clients will never see Voltera Cloud branding. You can use your own logo, private nameservers, and customize the cPanel interface to match your brand."
+        question: "Can I use my own branding?",
+        answer: "Yes, our reseller hosting is 100% white label. Your clients will never see our branding. You can use your own logo, private nameservers, and customise the DirectAdmin interface to match your brand."
     },
     {
         question: "How do I manage my clients?",
-        answer: "You will be provided with a WHM (Web Host Manager) control panel. From WHM, you can create cPanel accounts for your clients, set resource limits (plans), and manage their accounts easily without needing technical expertise."
+        answer: "You will be provided with a DirectAdmin reseller (admin) account. From this, you can create accounts for your clients, create plans, and manage their accounts easily without needing technical expertise. You'll also get a free Blesta license so that you can setup billing and more."
     },
     {
         question: "Can I upgrade my reseller plan?",
-        answer: "Absolutely! You can upgrade your reseller hosting plan at any time as your business grows. The upgrade process is seamless, instantly increasing your resources (disk space, accounts limit) with no downtime."
+        answer: "Absolutely! You can upgrade your reseller hosting plan at any time as your business grows. The upgrade process is seamless, instantly increasing your resources with no downtime."
     },
     {
         question: "Do you provide client support?",
-        answer: "We support you, the reseller. You are responsible for providing first-line support to your direct clients. If you encounter technical issues you cannot resolve, our 24/7 expert support team is available to assist you."
+        answer: "We support you; the reseller. You are responsible for providing first-line support to your direct clients. If you encounter technical issues you cannot resolve, our 24/7 expert support team is available to assist you."
     },
     {
         question: "Are SSL certificates free?",
-        answer: "Yes, we provide free AutoSSL certificates for all domains and subdomains hosted under your reseller account. They are installed and renewed automatically ensuring site security."
+        answer: "Yes, we provide free SSL certificates for all domains and subdomains hosted under your reseller account. They are installed and renewed automatically ensuring site security."
     }
 ];
 
@@ -43,7 +43,7 @@ export const ResellerHostingFAQ = () => {
                         Frequently Asked Questions
                     </h2>
                     <p className="text-lg text-gray-500 dark:text-gray-400">
-                        Everything you need to know about starting your hosting business.
+                        Find quick answers to the most common questions about our services.
                     </p>
                 </div>
 

@@ -2,7 +2,6 @@ import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { ColocationHero } from '../components/colocation/Hero';
 import { ColocationFacilities } from '../components/colocation/Facilities';
-import { ColocationLocations } from '../components/colocation/Locations';
 import { ColocationPricing } from '../components/colocation/Pricing';
 import { ColocationEnterpriseCTA } from '../components/colocation/EnterpriseCTA';
 import { SupportGuarantee } from '../components/SupportGuarantee';
@@ -18,7 +17,6 @@ const Colocation = () => {
             <Navbar />
             <ColocationHero />
             <ColocationFacilities />
-            <ColocationLocations />
             <ColocationPricing />
             <ColocationEnterpriseCTA />
             <SupportGuarantee />

@@ -24,14 +24,13 @@ export const SharedHostingHero = () => {
 
                     <div className="w-full lg:w-[45%] flex flex-col items-center lg:items-end text-center lg:text-right justify-center min-h-[300px] lg:min-h-[400px]">
                         <h1 className="text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white lg:text-7xl leading-[1.1] mb-6">
-                            Shared Hosting <br />
                             <span className="text-brand-primary">
-                                Built for Speed.
+                                Web Hosting
                             </span>
                         </h1>
 
                         <p className="text-lg text-gray-500 dark:text-gray-400 lg:text-xl leading-relaxed lg:ml-auto">
-                            Deploy your site on our enterprise <span className="text-gray-900 dark:text-white font-bold">NVMe Storage</span>. Faster, more secure, and always online.
+                            Shared website hosting with <span className="text-gray-900 dark:text-white font-bold">free SSL & business email</span> included. Faster, more secure, and always online.
                         </p>
                     </div>
                 </div>

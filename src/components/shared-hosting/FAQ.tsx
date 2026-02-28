@@ -3,28 +3,28 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const faqs = [
     {
-        question: "What is Shared Hosting and is it right for me?",
-        answer: "Shared Hosting is a web hosting service where multiple websites run on a single physical server, sharing resources like storage, memory, and processing power. It is the most affordable and popular option for beginners, personal blogs, small business websites, and portfolios that don't require immense resources."
+        question: "What is web hosting and is it right for me?",
+        answer: "Web hosting (also known as shared hosting) is a service where multiple websites run on a single physical server, sharing resources like storage, memory, and processing power. It is the most affordable option for beginners, personal blogs, small businesses, and portfolios that don't require immense resources."
     },
     {
-        question: "Why does NVMe SSD storage matter?",
+        question: "Why does NVMe storage matter?",
         answer: "NVMe (Non-Volatile Memory Express) SSDs are significantly faster than traditional SATA SSDs and HDDs. This means your website's files load much quicker, resulting in faster page load times, better user experience, and improved SEO rankings."
     },
     {
         question: "Can I upgrade my plan as my website grows?",
-        answer: "Absolutely! You can seamlessly upgrade your hosting plan at any time through our client portal. You simply pay the difference in price for the remaining time on your current billing cycle. No migration or downtime is required."
+        answer: "Absolutely! You can seamlessly upgrade your hosting plan at any time through your client account. You simply pay the difference in price for the remaining time on your current billing cycle. No migration or downtime is required."
     },
     {
         question: "Do you offer a money-back guarantee?",
-        answer: "Yes, we offer a risk-free 30-day money-back guarantee on all our shared hosting plans. If you're not completely satisfied with our service within the first 30 days, we'll refund your hosting fees, no questions asked."
+        answer: "Yes, we offer a risk-free 48-hour money-back guarantee on all our web hosting plans. If you're not completely satisfied with our service within the first 48 hours, we'll refund your payment, no questions asked."
     },
     {
-        question: "Is SSL included for free?",
-        answer: "Yes, we provide unlimited free Let's Encrypt SSL certificates for all domains and subdomains hosted with us. SSL is installed automatically, ensuring your website is secure (HTTPS) and trusted by visitors and search engines."
+        question: "Are SSL certificates included for free?",
+        answer: "Yes, we provide unlimited free Let's Encrypt SSL certificates for all domains and subdomains hosted with us. SSL is installed automatically, ensuring your website is secure (HTTPS) and trusted by visitors and search engines. You can also use your own certificates."
     },
     {
         question: "Will you help me migrate my existing website?",
-        answer: "Yes! We offer free website migration services. Our expert support team will handle the transfer of your files, databases, and emails from your previous host to Voltera Cloud, ensuring a smooth transition with zero downtime."
+        answer: "Yes! We offer free website migration services. Our expert team will handle the transfer of your files, databases, and emails from your previous provider to us, ensuring a smooth transition with zero downtime."
     }
 ];
 
@@ -43,7 +43,7 @@ export const SharedHostingFAQ = () => {
                         Frequently Asked Questions
                     </h2>
                     <p className="text-lg text-gray-500 dark:text-gray-400">
-                        Have questions? We have answers. If you can't find what you're looking for, our support team is just a click away.
+                        Find quick answers to the most common questions about our services.
                     </p>
                 </div>
 

@@ -1,12 +1,10 @@
 
-import logo256 from '../../assets/client/logoipsum-256.svg';
-import logo260 from '../../assets/client/logoipsum-260.svg';
-import logo289 from '../../assets/client/logoipsum-289.svg';
-import logo343 from '../../assets/client/logoipsum-343.svg';
-import logo354 from '../../assets/client/logoipsum-354.svg';
-import logo380 from '../../assets/client/logoipsum-380.svg';
-import logo393 from '../../assets/client/logoipsum-393.svg';
-import logo395 from '../../assets/client/logoipsum-395.svg';
+import logo256 from '../../assets/client/cloudflare.svg';
+import logo260 from '../../assets/client/neoprotect.svg';
+import logo289 from '../../assets/client/ovhcloud.svg';
+import logo343 from '../../assets/client/amd.svg';
+import logo354 from '../../assets/client/virtfusion.svg';
+import logo380 from '../../assets/client/directadmin.svg';
 
 const logos = [
     logo256,
@@ -15,8 +13,6 @@ const logos = [
     logo343,
     logo354,
     logo380,
-    logo393,
-    logo395,
 ];
 
 
@@ -27,7 +23,7 @@ export const TrustedBy = () => {
         <section className="pt-8 pb-20 bg-white dark:bg-gray-950 transition-colors duration-300 overflow-hidden">
             <div className="container mx-auto px-4 mb-10 text-center">
                 <p className="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-widest">
-                    Trusted by innovative teams worldwide
+                    Our Trusted Global Partners
                 </p>
             </div>
 

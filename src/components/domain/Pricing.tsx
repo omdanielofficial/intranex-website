@@ -14,10 +14,10 @@ export const DomainPricingHelper = () => {
             <div className="container mx-auto px-4 max-w-5xl">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white mb-4">
-                        Domain Price List
+                        Domain Pricing
                     </h2>
                     <p className="text-gray-500 dark:text-gray-400 max-w-2xl mx-auto">
-                        Transparent pricing with no hidden fees. All prices are in USD.
+                        Transparent registration, renewal, and transfer prices with no hidden fees. 
                     </p>
                 </div>
 

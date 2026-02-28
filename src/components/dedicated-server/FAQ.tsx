@@ -3,28 +3,28 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const faqs = [
     {
-        question: "How long does it take to provision a Dedicated Server?",
-        answer: "Most of our standard Dedicated Server configurations are provisioned automatically and delivered within 1-4 hours. Custom configurations or servers requiring specific hardware may take up to 24-48 hours depending on availability."
+        question: "How long does it take to provision a dedicated server?",
+        answer: "Most of our standard dedicated server configurations are provisioned automatically and delivered within 12-24 hours. Custom configurations or servers requiring specific hardware may take up to 7 business days depending on availability."
     },
     {
         question: "Do I get full IPMI/KVM access?",
         answer: "Yes, every dedicated server comes with full IPMI/KVM access (via VPN or direct link), allowing you to manage the server BIOS, perform remote installs, and troubleshoot issues even if the OS is unreachable."
     },
     {
-        question: "Can I customize the hardware?",
-        answer: "Absolutely. We offer customizable RAM, storage (NVMe/SSD/HDD), and network uplink options. If you don't see the specific configuration you need on our pricing page, please contact our sales team for a custom quote."
+        question: "Can I customizs the hardware?",
+        answer: "Absolutely. We offer customisable RAM, storage (NVMe/SSD/HDD), and network uplink options. You will need to reach out to our team for a quote tailored to your needs. Please be advised that custom configurations usually add a fair bit of cost."
     },
     {
         question: "Is DDoS protection included?",
-        answer: "Yes, all dedicated servers include free standard DDoS protection (up to 10Gbps). For mission-critical applications requiring higher mitigation capacity or specific game filtering, we offer advanced DDoS protection add-ons."
+        answer: "Yes, all dedicated servers include free standard DDoS protection. For mission-critical applications requiring higher mitigation capacity or specific game filtering, this provides excellent attack mitigation."
     },
     {
         question: "Are the network ports dedicated or shared?",
-        answer: "All dedicated servers come with a dedicated network uplink (1Gbps, 10Gbps, or 25Gbps depending on the plan). We do not throttle your speed, ensuring you get the full bandwidth capacity available to your port."
+        answer: "All dedicated servers come with a dedicated network uplink. This is usually 1 Gbps as standard, however it can often be increased up to 10 Gbps. We do not throttle your speed, ensuring you get the full bandwidth capacity available to your port."
     },
     {
         question: "Do you offer managed support?",
-        answer: "Our dedicated servers are unmanaged by default, giving you full control. However, we offer Managed Support add-ons if you need assistance with OS patching, security hardening, or control panel management (cPanel/Plesk)."
+        answer: "Our dedicated servers are self-managed by default, giving you full control. However, our enterprise solutions offerings include full server management, systems administration, software installs, and more."
     }
 ];
 
@@ -40,10 +40,10 @@ export const DedicatedServerFAQ = () => {
             <div className="container mx-auto px-4 max-w-4xl">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 dark:text-white mb-4 tracking-tight">
-                        Dedicated Server FAQ
+                        Frequently Asked Questions
                     </h2>
                     <p className="text-lg text-gray-500 dark:text-gray-400">
-                        Common questions about our high-performance dedicated infrastructure.
+                        Find quick answers to the most common questions about our services.
                     </p>
                 </div>
 

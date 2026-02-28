@@ -1,16 +1,16 @@
 export const resellerHostingConfig = {
 
     sectionTitle: "Reseller Hosting Plans",
-    sectionDescription: "Start your own hosting business with our white-label reseller plans. Powered by NVMe SSD and LiteSpeed.",
+    sectionDescription: "Start your own hosting business with our affordable white label reseller plans. Choose the perfect plan for your needs.",
 
 
-    currency: "$",
+    currency: "£",
 
 
     plans: [
         {
-            id: "starter-reseller",
-            name: "Starter Reseller",
+            id: "reseller-economy",
+            name: "Economy",
             price: "19.99",
             originalPrice: "39.99",
             discount: "50%",
@@ -20,22 +20,19 @@ export const resellerHostingConfig = {
             badge: null,
             badgeColor: null,
             features: [
-                "50 cPanel Accounts",
-                "100 GB NVMe Storage",
-                "Unlimited Bandwidth",
-                "Unlimited Email Accounts",
-                "Free WHMCS License",
-                "Free SSL Certificates",
-                "White Label cPanel",
-                "Private Nameservers",
-                "Daily Remote Backups",
-                "24/7 Priority Support"
+                "Unlimited DirectAdmin Users",
+                "250GB NVMe Storage",
+                "AMD Ryzen CPU (2 Cores)",
+                "4GB DDR5 RAM",
+                "Unmetered Bandwidth",
+                "White Label Branding",
+                "Free Blesta License",
             ],
             link: "#"
         },
         {
-            id: "growth-reseller",
-            name: "Growth Reseller",
+            id: "reseller-standard",
+            name: "Standard",
             price: "34.99",
             originalPrice: "69.99",
             discount: "50%",
@@ -45,76 +42,44 @@ export const resellerHostingConfig = {
             badge: "Most Popular",
             badgeColor: "bg-sky-500",
             features: [
-                "100 cPanel Accounts",
-                "250 GB NVMe Storage",
-                "Unlimited Bandwidth",
-                "Unlimited Email Accounts",
-                "Free WHMCS License",
-                "Free SSL Certificates",
-                "White Label cPanel",
-                "Private Nameservers",
-                "Daily Remote Backups",
-                "24/7 Priority Support"
+                "Unlimited DirectAdmin Users",
+                "500GB NVMe Storage",
+                "AMD Ryzen CPU (4 Cores)",
+                "8GB DDR5 RAM",
+                "Unmetered Bandwidth",
+                "White Label Branding",
+                "Free Blesta License",
             ],
             link: "#"
         },
         {
-            id: "pro-reseller",
-            name: "Pro Reseller",
+            id: "reseller-premium",
+            name: "Premium",
             price: "59.99",
             originalPrice: "119.99",
             discount: "50%",
             renewalPrice: "59.99",
             theme: "purple",
             isBestValue: false,
-            badge: "Powerhouse",
+            badge: null,
             badgeColor: "bg-purple-500",
             features: [
-                "200 cPanel Accounts",
-                "500 GB NVMe Storage",
-                "Unlimited Bandwidth",
-                "Unlimited Email Accounts",
-                "Free WHMCS License",
-                "Free SSL Certificates",
-                "White Label cPanel",
-                "Private Nameservers",
-                "Daily Remote Backups",
-                "Dedicated IP Included"
-            ],
-            link: "#"
-        },
-        {
-            id: "enterprise-reseller",
-            name: "Enterprise Reseller",
-            price: "89.99",
-            originalPrice: "179.99",
-            discount: "50%",
-            renewalPrice: "89.99",
-            theme: "amber",
-            isBestValue: false,
-            badge: "Maximum Performance",
-            badgeColor: "bg-amber-500",
-            features: [
-                "Unlimited cPanel Accounts",
-                "1 TB NVMe Storage",
-                "Unlimited Bandwidth",
-                "Unlimited Email Accounts",
-                "Free WHMCS License",
-                "Free SSL Certificates",
-                "White Label cPanel",
-                "Private Nameservers",
-                "Daily Remote Backups",
-                "Dedicated IP & Priority Support"
+                "Unlimited DirectAdmin Users",
+                "1000GB NVMe Storage",
+                "AMD Ryzen CPU (6 Cores)",
+                "16GB DDR5 RAM",
+                "Unmetered Bandwidth",
+                "White Label Branding",
+                "Free Blesta License",
             ],
             link: "#"
         }
     ],
 
     addonCpanel: [
-        { count: 10, price: "3.50" },
-        { count: 20, price: "7.00" },
-        { count: 30, price: "10.50" },
-        { count: 50, price: "17.50" },
-        { count: 100, price: "35.00" }
+        { count: 50, price: "10.00" },
+        { count: 100, price: "15.00" },
+        { count: 150, price: "20.00" },
+        { count: 200, price: "25.00" },
     ]
 };

@@ -1,8 +1,8 @@
 import type { SEOData } from './types';
 
 export const sharedHostingSEO: SEOData = {
-    title: 'High-Performance Shared Hosting | NVMe SSD & LiteSpeed Powered',
-    description: 'Ultra-fast Shared Hosting designed for speed and reliability. Featuring NVMe SSD storage, LiteSpeed Web Server, and Free SSL. Perfect for businesses demanding global performance and enterprise-grade security.',
+    title: 'Web Hosting | NVMe SSD & DirectAdmin Powered',
+    description: 'Ultra-fast shared website hosting designed for speed and reliability. Featuring NVMe SSD storage, DirectAdmin Panel, and Free SSL. Perfect for businesses demanding global performance and enterprise-grade security.',
     keywords: [
         'High Performance Shared Hosting',
         'NVMe SSD Hosting',

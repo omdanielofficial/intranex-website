@@ -1,4 +1,4 @@
-import { Send, CheckCircle2, Loader2, MessageSquare, Mail, Phone, Info } from 'lucide-react';
+import { Send, CheckCircle2, Loader2, MessageSquare, Mail, Info } from 'lucide-react';
 import { useState } from 'react';
 
 export const ContactForm = () => {
@@ -7,7 +7,7 @@ export const ContactForm = () => {
         firstName: '',
         lastName: '',
         email: '',
-        subject: 'Cloud VPS & Hosting',
+        subject: 'VPS & Dedicated Servers',
         message: ''
     });
 
@@ -50,14 +50,13 @@ export const ContactForm = () => {
                             </div>
 
                             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 tracking-tight">
-                                Reach Our Experts
+                                Opening Hours
                             </h3>
 
                             <ul className="space-y-6">
                                 {[
-                                    { icon: MessageSquare, title: "Live Chat", value: "24/7 Availability" },
-                                    { icon: Mail, title: "Official Email", value: "support@voltera.cloud" },
-                                    { icon: Phone, title: "Call Center", value: "+62 21 5550 1234" }
+                                    { icon: MessageSquare, title: "Tickets", value: "Available 24/7" },
+                                    { icon: Mail, title: "Email", value: "Mon-Fri, 10:00-17:00 GMT" },
                                 ].map((item, i) => (
                                     <li key={i} className="flex items-start gap-4">
                                         <div className="flex-shrink-0 w-10 h-10 rounded-lg flex items-center justify-center bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 text-brand-primary">
@@ -74,18 +73,18 @@ export const ContactForm = () => {
                             <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-800 text-xs text-gray-400 font-medium">
                                 <p className="flex items-center gap-2">
                                     <Info size={14} />
-                                    Average response time: 15 minutes
+                                    Average initial response time: 20 minutes
                                 </p>
                             </div>
                         </div>
 
 
                         <div className="bg-brand-primary rounded-xl p-8 text-white">
-                            <h4 className="font-bold text-lg mb-2">Headquarters</h4>
+                            <h4 className="font-bold text-lg mb-2">Mail Address</h4>
                             <p className="text-white/80 text-sm leading-relaxed font-medium">
-                                PT. Voltera Cloud Indonesia<br />
-                                Menara Imperium, Lt. 15<br />
-                                Jakarta, Indonesia 12980
+                                82A James Carter Road<br />
+                                Mildenhall<br />
+                                United Kingdom, IP28 7DE
                             </p>
                         </div>
                     </div>
@@ -113,7 +112,7 @@ export const ContactForm = () => {
                             ) : (
                                 <>
                                     <div className="mb-10 text-center lg:text-left">
-                                        <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight">Send Us a Message</h2>
+                                        <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight">Pre-Sales Contact</h2>
                                         <div className="h-1 w-12 bg-brand-primary rounded-full mx-auto lg:mx-0"></div>
                                     </div>
 
@@ -163,10 +162,10 @@ export const ContactForm = () => {
                                                 onChange={handleChange}
                                                 className="w-full bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg px-4 py-3 focus:ring-1 focus:ring-brand-primary focus:border-brand-primary outline-none transition-all dark:text-white font-medium cursor-pointer"
                                             >
-                                                <option>Cloud VPS & Hosting</option>
-                                                <option>Dedicated Servers</option>
-                                                <option>Colocation Services</option>
-                                                <option>General Inquiry</option>
+                                                <option>VPS & Dedicated Servers</option>
+                                                <option>Web Hosting & Domains</option>
+                                                <option>Enterprise Solutions</option>
+                                                <option>Other</option>
                                             </select>
                                         </div>
 
@@ -195,7 +194,7 @@ export const ContactForm = () => {
                                                     </>
                                                 ) : (
                                                     <>
-                                                        Send Message Now
+                                                        Send Message
                                                         <Send size={20} />
                                                     </>
                                                 )}

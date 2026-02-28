@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 
 const Promo = () => {
     useEffect(() => {
-        document.title = "Exclusive Promos & Deals | Voltera Cloud";
+        document.title = "Special Offers & Promotions | Intranex";
     }, []);
 
     return (

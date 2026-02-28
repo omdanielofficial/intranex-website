@@ -3,12 +3,12 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const faqs = [
     {
-        question: "What virtualization technology do you use?",
-        answer: "We use KVM (Kernel-based Virtual Machine) virtualization. This ensures that your resources (CPU, RAM, Storage) are dedicated to your VPS and not shared with others, providing better performance, security, and stability."
+        question: "What virtualisation technology do you use?",
+        answer: "We use KVM (Kernel-based Virtual Machine) virtualisation. This ensures that your resources (CPU, RAM, Storage) are dedicated to your VPS and not shared with others, providing better performance, security, and stability. Control your servers through our innovative VirtFusion panel."
     },
     {
         question: "Can I upgrade my VPS later?",
-        answer: "Yes, you can scale your VPS resources vertically at any time. Upgrades to CPU and RAM are instant and can be done directly from your client area. Disk upgrades may require a file system resize which is handled automatically."
+        answer: "Yes, you can scale your VPS resources vertically at any time. Plan upgrades are instant and can be done directly from your client account. Please contact us if you wish to increase individual settings."
     },
     {
         question: "Do you provide root access?",
@@ -20,11 +20,11 @@ const faqs = [
     },
     {
         question: "Where are your servers located?",
-        answer: "We currently operate in data centers across Frankfurt (DE), Amsterdam (NL), Dallas (TX), and Jakarta (ID). You can select your preferred location during checkout to minimize latency for your target audience."
+        answer: "We currently operate in data centres across London (UK) and New York City (US). You can select your preferred location during checkout to minimise latency for your target audience."
     },
     {
         question: "What operating systems are available?",
-        answer: "We offer a wide range of Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also upload your own Custom ISO if you need a specific OS or version."
+        answer: "We offer a wide range of Linux distributions including Ubuntu, Debian, CentOS, AlmaLinux, and Rocky Linux. You can also choose to use Windows, or alternatively upload your own Custom ISO if you need a specific OS or version. Our Windows plans cost a little extra due to its high resource usage."
     }
 ];
 
@@ -43,7 +43,7 @@ export const CloudVPSFAQ = () => {
                         Frequently Asked Questions
                     </h2>
                     <p className="text-lg text-gray-500 dark:text-gray-400">
-                        Have questions? We have answers. If you can't find what you're looking for, our support team is just a click away.
+                        Find quick answers to the most common questions about our services.
                     </p>
                 </div>
 

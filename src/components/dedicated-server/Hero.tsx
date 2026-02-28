@@ -23,21 +23,21 @@ export const DedicatedServerHero = () => {
 
                     <div className="w-full lg:w-[55%] flex flex-col items-center lg:items-start text-center lg:text-left justify-center min-h-[300px] lg:min-h-[400px]">
                         <h1 className="text-5xl font-extrabold tracking-tight text-white lg:text-7xl leading-[1.1] mb-6">
-                            Dedicated Server <br />
+                            Bare Metal <br />
                             <span className="text-white/90">
-                                Bare Metal Power.
+                                Dedicated Servers
                             </span>
                         </h1>
 
                         <p className="text-lg text-white/90 lg:text-xl leading-relaxed mb-8 max-w-xl">
-                            Unleash maximum performance with single-tenant bare metal servers. <span className="text-white font-bold">100% Dedicated Resources</span> for your most demanding workloads.
+                            Unleash maximum performance with single-tenant bare metal servers. <span className="text-white font-bold">100% dedicated resources</span> for your most demanding workloads.
                         </p>
 
                         <div className="mt-10 flex flex-wrap justify-center lg:justify-start gap-4">
                             {[
-                                "24 Hour Money Back Guarantee",
+                                "Quick Setup (No Fees)",
                                 "Enterprise Hardware",
-                                "99.95% SLA Guarantee"
+                                "99.99% Uptime Guarantee"
                             ].map((feature, i) => (
                                 <div key={i} className="flex items-center gap-2.5 px-5 py-2.5 bg-white/10 border border-white/20 rounded-full text-white font-semibold transition-all hover:bg-white/20 cursor-default">
                                     <div className="bg-white text-brand-primary rounded-full p-0.5 flex items-center justify-center">

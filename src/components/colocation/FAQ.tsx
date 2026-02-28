@@ -3,29 +3,17 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const faqs = [
     {
-        question: "How do I ship my hardware to your data center?",
-        answer: "Once your order is confirmed, we will provide you with a shipping label and specific instructions. You can ship your pre-configured hardware directly to our facility, or schedule a time to drop it off personally."
+        question: "What's included in enterprise solutions?",
+        answer: "Our enterprise solutions include fully managed server infrastructure, advanced security protection, network optimisation, proactive monitoring, regular backups, and 24/7 priority support. It's tailored to meet your specific performance, compliance, and scalability requirements."
     },
     {
-        question: "Do you offer Remote Hands support?",
-        answer: "Yes, we offer 24/7/365 Remote Hands support. Our on-site technicians can assist with racking/stacking, cable management, hardware replacements, and visual inspections."
+        question: "What size businesses are enterprise solutions best for?",
+        answer: "All sizes! We cater to growing startups, established businesses, and organisations running mission-critical workloads. Whether you're scaling rapidly or require high availability and compliance, our solutions are built to support demanding environments."
     },
     {
-        question: "What power configurations are available?",
-        answer: "We support a wide range of power densities. Standard racks come with 2x 30A 120V or 208V feeds (A+B redundant). High-density racks (20kW+) and 3-phase power are available upon request."
+        question: "Do you offer consultancy services?",
+        answer: "Yes. Our plans include access to IT consultancy services such as infrastructure planning, performance optimisation, cost analysis, and long-term scalability strategy. We work closely with your team to ensure your infrastructure supports your business goals."
     },
-    {
-        question: "Is network bandwidth dedicated or shared?",
-        answer: "We provide dedicated, unmetered uplink ports (1Gbps, 10Gbps, or 40Gbps/100Gbps). The bandwidth is fully committed to your rack and is not oversubscribed."
-    },
-    {
-        question: "Can I access the data center physically?",
-        answer: "Yes, customers with Full Rack or Private Cage deployments can request escorted or unescorted 24/7 physical access, subject to security clearance and biometric enrollment."
-    },
-    {
-        question: "What compliance standards do you meet?",
-        answer: "Our facilities are SOC 2 Type II, ISO 27001, PCI-DSS, and HIPAA compliant, ensuring your infrastructure meets strict regulatory requirements."
-    }
 ];
 
 export const ColocationFAQ = () => {
@@ -40,10 +28,10 @@ export const ColocationFAQ = () => {
             <div className="container mx-auto px-4 max-w-4xl">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 dark:text-white mb-4 tracking-tight">
-                        Colocation FAQ
+                        Frequently Asked Questions
                     </h2>
                     <p className="text-lg text-gray-500 dark:text-gray-400">
-                        Frequently asked questions about housing your hardware with Voltera Cloud.
+                                                Find quick answers to the most common questions about our services.
                     </p>
                 </div>
 
