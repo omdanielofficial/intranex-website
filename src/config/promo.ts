@@ -19,6 +19,20 @@ export const promoConfig = {
             ]
         },
         {
+            id: "game-25",
+            title: "25% OFF Game Hosting",
+            description: "Launch your new game server and grow a community for a quarter of the price.",
+            code: "GAME25",
+            endDate: "2026-03-15T00:00:00Z",
+            quota: "Quota : Unlimited",
+            terms: [
+                "Valid for game hosting plans.",
+                "Applicable to monthly billing cycles only.",
+                "Valid for new customers only.",
+                "Cannot be combined with other promos."
+            ]
+        },
+        {
             id: "vps-ram-boost",
             title: "Free RAM Upgrade - Virtual Private Servers",
             description: "Order a virtual private today and get an extra 4GB RAM upgrade absolutely free.",

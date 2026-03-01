@@ -11,6 +11,7 @@ const ResellerHosting = lazy(() => import('./pages/ResellerHosting'));
 const VirtualPrivateServers = lazy(() => import('./pages/CloudVPS'));
 const DedicatedServers = lazy(() => import('./pages/DedicatedServer'));
 const EnterpriseSolutions = lazy(() => import('./pages/Colocation'));
+const GameHosting = lazy(() => import('./pages/CloudHosting'));
 const Domains = lazy(() => import('./pages/Domain'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Legal = lazy(() => import('./pages/Legal'));
@@ -38,6 +39,7 @@ function App() {
             <Route path="/dedicated" element={<DedicatedServers />} />
             <Route path="/enterprise" element={<EnterpriseSolutions />} />
             <Route path="/domains" element={<Domains />} />
+            <Route path="/game" element={<GameHosting />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/legal" element={<Legal />} />
             <Route path="/legal/:docId" element={<Legal />} />

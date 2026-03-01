@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Menu, X, Share2, ChevronDown, Moon, Sun, Database, Server, Cloud, ShoppingBasketIcon, MedalIcon, SearchIcon, WifiHighIcon, BookIcon, ClockArrowDown } from 'lucide-react';
+import { Menu, X, Share2, ChevronDown, Moon, Sun, Database, Server, Cloud, ShoppingBasketIcon, MedalIcon, SearchIcon, WifiHighIcon, BookIcon, ClockArrowDown, GamepadIcon } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { announcementConfig } from '../config/announcement';
 import logoWhite from '../assets/logo-white.svg';
@@ -170,6 +170,7 @@ export const Navbar = () => {
                                                     { title: "Reseller Hosting", desc: "Start your hosting business", icon: Database, price: "Coming Soon", path: "/resellers" },
                                                     { title: "Domains", desc: "Claim your online presence", icon: ShoppingBasketIcon, price: "£0.99/yr", path: "/domains" },
                                                     { title: "Enterprise Solutions", desc: "Managed services & IT consultancy", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
+                                                    { title: "Game Hosting", desc: "Hosting for over 15 games", icon: GamepadIcon, price: "£2.50/mo", path: "/game" },
                                                 ].map((item, idx) => (
                                                     <Link key={idx} to={item.path} className="flex items-start gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors group">
                                                         <div className="p-2.5 bg-brand-primary/10 rounded-lg text-brand-primary group-hover:bg-brand-primary group-hover:text-white transition-colors">
@@ -326,6 +327,7 @@ export const Navbar = () => {
                                                     { title: "Reseller Hosting", desc: "Start your hosting business", icon: Database, price: "Coming Soon", path: "/resellers" },
                                                     { title: "Domains", desc: "Claim your online presence", icon: ShoppingBasketIcon, price: "£0.99/yr", path: "/domains" },
                                                     { title: "Enterprise Solutions", desc: "Managed services & IT consultancy", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
+                                                    { title: "Game Hosting", desc: "Hosting for over 15 games", icon: GamepadIcon, price: "£2.50/mo", path: "/game" },
                                                 ].map((item, idx) => (
                                                     <Link key={idx} to={item.path} className="block">
                                                         <div className="text-sm font-semibold text-gray-900 dark:text-gray-100">{item.title}</div>

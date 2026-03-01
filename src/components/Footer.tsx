@@ -71,6 +71,7 @@ export const Footer = () => {
                                     { name: 'Reseller Hosting', to: '/resellers' },
                                     { name: 'Domains', to: '/domains' },
                                     { name: 'Enterprise Solutions', to: '/enterprise' },
+                                    { name: 'Game Hosting', to: '/game' },
                                 ].map((item) => (
                                     <li key={item.name}>
                                         <Link to={item.to} className="text-gray-500 dark:text-gray-400 hover:text-brand-primary dark:hover:text-brand-primary transition-colors text-sm">
