@@ -167,10 +167,10 @@ export const Navbar = () => {
                                                     { title: "Web Hosting", desc: "Flexible shared hosting", icon: Share2, price: "£1.80/mo", path: "/web" },   
                                                     { title: "Virtual Private Servers", desc: "Scalable cloud compute", icon: Cloud, price: "£5.20/mo", path: "/vps" },
                                                     { title: "Dedicated Servers", desc: "100% bare metal servers", icon: Server, price: "£95.00/mo", path: "/dedicated" },
-                                                    { title: "Reseller Hosting", desc: "Start your hosting business", icon: Database, price: "Coming Soon", path: "/resellers" },
+                                                    { title: "Game Hosting", desc: "Hosting for over 15 games", icon: GamepadIcon, price: "£2.50/mo", path: "/game" },
+                                                    { title: "Reseller Hosting", desc: "Start your hosting business", icon: Database, price: "Coming Soon", path: "/resellers" },                             
                                                     { title: "Domains", desc: "Claim your online presence", icon: ShoppingBasketIcon, price: "£0.99/yr", path: "/domains" },
                                                     { title: "Enterprise Solutions", desc: "Managed services & IT consultancy", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
-                                                    { title: "Game Hosting", desc: "Hosting for over 15 games", icon: GamepadIcon, price: "£2.50/mo", path: "/game" },
                                                 ].map((item, idx) => (
                                                     <Link key={idx} to={item.path} className="flex items-start gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors group">
                                                         <div className="p-2.5 bg-brand-primary/10 rounded-lg text-brand-primary group-hover:bg-brand-primary group-hover:text-white transition-colors">
@@ -324,10 +324,10 @@ export const Navbar = () => {
                                                     { title: "Web Hosting", desc: "Flexible shared hosting", icon: Share2, price: "£1.80/mo", path: "/web" },   
                                                     { title: "Virtual Private Servers", desc: "Scalable cloud compute", icon: Cloud, price: "£5.20/mo", path: "/vps" },
                                                     { title: "Dedicated Servers", desc: "100% bare metal servers", icon: Server, price: "£95.00/mo", path: "/dedicated" },
+                                                    { title: "Game Hosting", desc: "Hosting for over 15 games", icon: GamepadIcon, price: "£2.50/mo", path: "/game" },
                                                     { title: "Reseller Hosting", desc: "Start your hosting business", icon: Database, price: "Coming Soon", path: "/resellers" },
                                                     { title: "Domains", desc: "Claim your online presence", icon: ShoppingBasketIcon, price: "£0.99/yr", path: "/domains" },
                                                     { title: "Enterprise Solutions", desc: "Managed services & IT consultancy", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
-                                                    { title: "Game Hosting", desc: "Hosting for over 15 games", icon: GamepadIcon, price: "£2.50/mo", path: "/game" },
                                                 ].map((item, idx) => (
                                                     <Link key={idx} to={item.path} className="block">
                                                         <div className="text-sm font-semibold text-gray-900 dark:text-gray-100">{item.title}</div>
