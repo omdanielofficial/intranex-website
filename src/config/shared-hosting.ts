@@ -47,7 +47,7 @@ export const sharedHostingConfig = {
             features: [
                 "25 Websites",
                 "50GB NVMe Storage",
-                "50 Email Accounts",
+                "25 Email Accounts",
                 "Free Domain (1 Year)",
                 "Free SSL Certificates",
                 "100 Subdomains",
@@ -73,7 +73,7 @@ export const sharedHostingConfig = {
             features: [
                 "50 Websites",
                 "100GB NVMe Storage",
-                "100 Email Accounts",
+                "50 Email Accounts",
                 "Free Domain (1 Year)",
                 "Free SSL Certificates",
                 "150 Subdomains",
@@ -98,7 +98,7 @@ export const sharedHostingConfig = {
             features: [
                 "75 Websites",
                 "150GB NVMe Storage",
-                "150 Email Accounts",
+                "75 Email Accounts",
                 "Free Domain (1 Year)",
                 "Free SSL Certificates",
                 "Unlimited Subdomains",
