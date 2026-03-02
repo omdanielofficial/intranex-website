@@ -1,4 +1,4 @@
-import { Share2, Server, Cloud, ArrowRight, CheckCircle2, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Share2, Server, Cloud, ArrowRight, CheckCircle2, ChevronLeft, ChevronRight, GamepadIcon } from 'lucide-react';
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -58,6 +58,25 @@ const products = [
             "Full Root Access",
             "Advanced Monitoring",
             "Available in London & New York City"
+        ]
+    },
+    {
+        icon: GamepadIcon,
+        title: "Game Hosting",
+        subtitle: "Game Hosting",
+        description: "Lightning-fast game server hosting with support for over 15 games.",
+        price: "2.50",
+        unit: "/mo",
+        highlight: "Maximum Power",
+        theme: "amber",
+        link: "/game",
+        features: [
+            "AMD Ryzen™ 9 9950X CPUs",
+            "Modpack & Plugin Support",
+            "NVMe SSD Storage",
+            "Free Subdomains",
+            "Free Tebex Plus Included",
+            "Available in New York City"
         ]
     },
 ];

@@ -26,9 +26,9 @@ export const Hero = () => {
                         </div>
 
                         <h1 className="text-5xl lg:text-7xl font-black text-gray-900 dark:text-white leading-[1.05] tracking-tighter mb-6 opacity-0 animate-fade-in-up animate-delay-100">
-                            Secure, scalable <br />
+                            Powerful, affordable <br />
                             <span className="text-brand-primary">
-                                cloud compute.
+                                infrastructure.
                             </span>
                         </h1>
 
