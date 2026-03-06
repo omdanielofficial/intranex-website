@@ -4,7 +4,7 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 const faqs = [
     {
         question: "Can I upgrade my plan later if I need more resources?",
-        answer: "Absolutely! You can upgrade or downgrade your game server plan at any time in your client dashboard. We understand that circumstances change, and sometimes you might need a little bit more or a little bit less. Alternatively, you can also reach out to our support team to create a custom plan for any of our game servers to fit your needs."
+        answer: "Absolutely! You can upgrade or downgrade your game server plan at any time in your client account. We understand that circumstances change, and sometimes you might need a little bit more or a little bit less. Alternatively, you can also reach out to our support team to create a custom plan for any of our game servers to fit your needs."
     },
     {
         question: "Do you support mods and plugins?",
@@ -12,7 +12,7 @@ const faqs = [
     },
     {
         question: "How long does setup take?",
-        answer: "s soon as you purchase a server with us, you will receive an email with your login information to access your server's control panel. Just login, select a server type and connect to your server!"
+        answer: "As soon as you purchase a server with us, you will receive an email with your login information to access your server's control panel. Just login, select a server type and connect to your server!"
     },
     {
         question: "Will my game server be online 24/7?",
