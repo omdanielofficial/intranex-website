@@ -11,7 +11,7 @@ const faqs = [
         answer: "Yes, every dedicated server comes with full IPMI/KVM access (via VPN or direct link), allowing you to manage the server BIOS, perform remote installs, and troubleshoot issues even if the OS is unreachable."
     },
     {
-        question: "Can I customizs the hardware?",
+        question: "Can I customise the hardware?",
         answer: "Absolutely. We offer customisable RAM, storage (NVMe/SSD/HDD), and network uplink options. You will need to reach out to our team for a quote tailored to your needs. Please be advised that custom configurations usually add a fair bit of cost."
     },
     {
