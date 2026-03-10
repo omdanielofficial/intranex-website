@@ -113,7 +113,7 @@ export const CloudVPSPricing = () => {
                                                         href={plan.links[selectedRegion as keyof typeof plan.links] || '#'}
                                                         className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-bold transition-all bg-brand-primary text-white hover:bg-brand-secondary"
                                                     >
-                                                        Configure
+                                                        Out of Stock
                                                         <ArrowRight size={16} />
                                                     </a>
                                                 </td>
