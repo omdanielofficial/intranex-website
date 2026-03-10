@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const products = [
     {
         icon: Share2,
-        title: "Shared Hosting",
+        title: "London, UK",
         subtitle: "Web Hosting",
         description: "Lightning-fast website hosting with free SSL and business email included.",
         price: "1.80",
@@ -18,13 +18,12 @@ const products = [
             "Free SSL Certificates",
             "NVMe SSD Storage",
             "One-Click App Installer",
-            "Business Email",
-            "Available in London"
+            "Business Email"
         ]
     },
     {
         icon: Cloud,
-        title: "Cloud Compute",
+        title: "London, UK / New York City, US",
         subtitle: "Virtual Private Servers",
         description: "High-performance KVM virtual servers with NVMe storage and full root access.",
         price: "5.20",
@@ -37,13 +36,12 @@ const products = [
             "Dedicated CPU Threads",
             "NVMe SSD Storage",
             "Full Root Access",
-            "KVM Virtualisation",
-            "Available in London & New York City"
+            "KVM Virtualisation"
         ]
     },
     {
         icon: Server,
-        title: "Bare Metal",
+        title: "London, UK / New York City, US",
         subtitle: "Dedicated Servers",
         description: "Maximum power with single-tenant bare metal hardware for all workloads.",
         price: "95.00",
@@ -56,13 +54,12 @@ const products = [
             "Single-Tenant Servers",
             "NVMe SSD Storage",
             "Full Root Access",
-            "Advanced Monitoring",
-            "Available in London & New York City"
+            "Advanced Monitoring"
         ]
     },
     {
         icon: GamepadIcon,
-        title: "Game Hosting",
+        title: "New York City, US",
         subtitle: "Game Hosting",
         description: "Lightning-fast game server hosting with support for over 15 games.",
         price: "2.50",
@@ -75,8 +72,7 @@ const products = [
             "Modpack & Plugin Support",
             "NVMe SSD Storage",
             "Free Subdomains",
-            "Free Tebex Plus Included",
-            "Available in New York City"
+            "Free Tebex Plus Included"
         ]
     },
 ];
