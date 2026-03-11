@@ -156,7 +156,7 @@ export const Navbar = () => {
                                                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent p-6 flex flex-col justify-end">
                                                     <h3 className="text-xl font-bold text-white mb-2">Solutions</h3>
                                                     <p className="text-xs font-medium text-gray-100 leading-relaxed opacity-90">
-                                                        Try our fast, reliable, and scalable services today. Explore website hosting, cloud compute, infrastructure, and more.
+                                                        Try our fast, reliable, and scalable services today. Explore cloud compute, infrastructure, and more.
                                                     </p>
                                                 </div>
                                             </div>

@@ -6,13 +6,13 @@ export const promoConfig = {
     offers: [
         {
             id: "intranex-40",
-            title: "40% OFF Web Hosting & Virtual Private Servers",
-            description: "Launch your new website or virtual private server for almost half the price.",
+            title: "40% OFF Virtual Private Servers",
+            description: "Launch your new virtual private server for almost half the price.",
             code: "INTRANEX40",
             endDate: "2026-03-21T00:00:00Z",
             quota: "Quota : Unlimited",
             terms: [
-                "Valid for web hosting & VPS plans.",
+                "Valid for all virtual private server plans.",
                 "Applicable to monthly billing cycles only.",
                 "Valid for new customers only.",
                 "Cannot be combined with other promos."
@@ -44,20 +44,6 @@ export const promoConfig = {
                 "Applied permanently to active service.",
                 "Valid for new VPS orders only.",
                 "Cannot be combined with other promos.",
-            ]
-        },
-        {
-            id: "domain-b1g1",
-            title: "Buy 1, Get 1 Free - Domains (.COM/.ID)",
-            description: "Register your main .COM domain and get a .ID domain for free.",
-            code: "DOMAINB1G1",
-            endDate: "2026-02-10T12:00:00Z",
-            quota: "Quota : 100",
-            terms: [
-                "Valid for new .COM domain registrations.",
-                "Free domain valid for 1 year.",
-                "Does not apply to premium domains.",
-                "Cannot be combined with other promos."
             ]
         }
     ]
