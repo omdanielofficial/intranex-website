@@ -65,11 +65,9 @@ export const Footer = () => {
                             <h3 className="font-bold text-gray-900 dark:text-white mb-6">Solutions</h3>
                             <ul className="space-y-3">
                                 {[
-                                    { name: 'Web Hosting', to: '/web' },
                                     { name: 'Virtual Private Servers', to: '/vps' },
                                     { name: 'Dedicated Servers', to: '/dedicated' },
                                     { name: 'Game Hosting', to: '/game' },
-                                    { name: 'Domains', to: '/domains' },
                                     { name: 'Enterprise Solutions', to: '/enterprise' },
                                 ].map((item) => (
                                     <li key={item.name}>

@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Menu, X, Share2, ChevronDown, Moon, Sun, Server, Cloud, ShoppingBasketIcon, MedalIcon, SearchIcon, WifiHighIcon, BookIcon, ClockArrowDown, GamepadIcon } from 'lucide-react';
+import { Menu, X, ChevronDown, Moon, Sun, Server, Cloud, MedalIcon, SearchIcon, WifiHighIcon, BookIcon, ClockArrowDown, GamepadIcon } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { announcementConfig } from '../config/announcement';
 import logoWhite from '../assets/logo-white.svg';
@@ -164,11 +164,9 @@ export const Navbar = () => {
 
                                             <div className="w-2/3 p-6 grid grid-cols-2 gap-3">
                                                 {[
-                                                    { title: "Web Hosting", desc: "Flexible shared hosting", icon: Share2, price: "£1.80/mo", path: "/web" },   
                                                     { title: "Virtual Private Servers", desc: "Scalable cloud compute", icon: Cloud, price: "£5.20/mo", path: "/vps" },
                                                     { title: "Dedicated Servers", desc: "100% bare metal servers", icon: Server, price: "£95.00/mo", path: "/dedicated" },
                                                     { title: "Game Hosting", desc: "Hosting for over 15 games", icon: GamepadIcon, price: "£2.50/mo", path: "/game" },
-                                                    { title: "Domains", desc: "Claim your online presence", icon: ShoppingBasketIcon, price: "£0.99/yr", path: "/domains" },
                                                     { title: "Enterprise Solutions", desc: "Managed services & IT consultancy", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
                                                 ].map((item, idx) => (
                                                     <Link key={idx} to={item.path} className="flex items-start gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors group">
@@ -320,11 +318,9 @@ export const Navbar = () => {
                                         >
                                             <div className="pl-4 ml-4 border-l-2 border-brand-primary/20 space-y-3 py-2">
                                                 {[
-                                                    { title: "Web Hosting", desc: "Flexible shared hosting", icon: Share2, price: "£1.80/mo", path: "/web" },   
                                                     { title: "Virtual Private Servers", desc: "Scalable cloud compute", icon: Cloud, price: "£5.20/mo", path: "/vps" },
                                                     { title: "Dedicated Servers", desc: "100% bare metal servers", icon: Server, price: "£95.00/mo", path: "/dedicated" },
                                                     { title: "Game Hosting", desc: "Hosting for over 15 games", icon: GamepadIcon, price: "£2.50/mo", path: "/game" },
-                                                    { title: "Domains", desc: "Claim your online presence", icon: ShoppingBasketIcon, price: "£0.99/yr", path: "/domains" },
                                                     { title: "Enterprise Solutions", desc: "Managed services & IT consultancy", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
                                                 ].map((item, idx) => (
                                                     <Link key={idx} to={item.path} className="block">

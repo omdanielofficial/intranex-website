@@ -1,26 +1,8 @@
-import { Share2, Server, Cloud, ArrowRight, CheckCircle2, ChevronLeft, ChevronRight, GamepadIcon } from 'lucide-react';
+import { Server, Cloud, ArrowRight, CheckCircle2, ChevronLeft, ChevronRight, GamepadIcon } from 'lucide-react';
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 const products = [
-    {
-        icon: Share2,
-        title: "London, UK",
-        subtitle: "Web Hosting",
-        description: "Lightning-fast website hosting with free SSL and business email included.",
-        price: "1.80",
-        unit: "/mo",
-        highlight: "Value Leader",
-        theme: "emerald",
-        link: "/web",
-        features: [
-            "DirectAdmin Panel",
-            "Free SSL Certificates",
-            "NVMe SSD Storage",
-            "One-Click App Installer",
-            "Business Email"
-        ]
-    },
     {
         icon: Cloud,
         title: "London, UK / New York City, US",
