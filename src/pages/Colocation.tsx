@@ -3,7 +3,6 @@ import { Footer } from '../components/Footer';
 import { ColocationHero } from '../components/colocation/Hero';
 import { ColocationFacilities } from '../components/colocation/Facilities';
 import { ColocationPricing } from '../components/colocation/Pricing';
-import { ColocationEnterpriseCTA } from '../components/colocation/EnterpriseCTA';
 import { SupportGuarantee } from '../components/SupportGuarantee';
 import { ColocationFAQ } from '../components/colocation/FAQ';
 import { CTA } from '../components/home/CTA';
@@ -18,7 +17,6 @@ const Colocation = () => {
             <ColocationHero />
             <ColocationFacilities />
             <ColocationPricing />
-            <ColocationEnterpriseCTA />
             <SupportGuarantee />
             <ColocationFAQ />
             <CTA />
