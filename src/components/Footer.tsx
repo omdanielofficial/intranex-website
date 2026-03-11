@@ -69,7 +69,6 @@ export const Footer = () => {
                                     { name: 'Virtual Private Servers', to: '/vps' },
                                     { name: 'Dedicated Servers', to: '/dedicated' },
                                     { name: 'Game Hosting', to: '/game' },
-                                    { name: 'Reseller Hosting', to: '/resellers' },
                                     { name: 'Domains', to: '/domains' },
                                     { name: 'Enterprise Solutions', to: '/enterprise' },
                                 ].map((item) => (

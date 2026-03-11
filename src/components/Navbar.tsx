@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Menu, X, Share2, ChevronDown, Moon, Sun, Database, Server, Cloud, ShoppingBasketIcon, MedalIcon, SearchIcon, WifiHighIcon, BookIcon, ClockArrowDown, GamepadIcon } from 'lucide-react';
+import { Menu, X, Share2, ChevronDown, Moon, Sun, Server, Cloud, ShoppingBasketIcon, MedalIcon, SearchIcon, WifiHighIcon, BookIcon, ClockArrowDown, GamepadIcon } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { announcementConfig } from '../config/announcement';
 import logoWhite from '../assets/logo-white.svg';
@@ -168,7 +168,6 @@ export const Navbar = () => {
                                                     { title: "Virtual Private Servers", desc: "Scalable cloud compute", icon: Cloud, price: "£5.20/mo", path: "/vps" },
                                                     { title: "Dedicated Servers", desc: "100% bare metal servers", icon: Server, price: "£95.00/mo", path: "/dedicated" },
                                                     { title: "Game Hosting", desc: "Hosting for over 15 games", icon: GamepadIcon, price: "£2.50/mo", path: "/game" },
-                                                    { title: "Reseller Hosting", desc: "Start your hosting business", icon: Database, price: "Coming Soon", path: "/resellers" },                             
                                                     { title: "Domains", desc: "Claim your online presence", icon: ShoppingBasketIcon, price: "£0.99/yr", path: "/domains" },
                                                     { title: "Enterprise Solutions", desc: "Managed services & IT consultancy", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
                                                 ].map((item, idx) => (
@@ -325,7 +324,6 @@ export const Navbar = () => {
                                                     { title: "Virtual Private Servers", desc: "Scalable cloud compute", icon: Cloud, price: "£5.20/mo", path: "/vps" },
                                                     { title: "Dedicated Servers", desc: "100% bare metal servers", icon: Server, price: "£95.00/mo", path: "/dedicated" },
                                                     { title: "Game Hosting", desc: "Hosting for over 15 games", icon: GamepadIcon, price: "£2.50/mo", path: "/game" },
-                                                    { title: "Reseller Hosting", desc: "Start your hosting business", icon: Database, price: "Coming Soon", path: "/resellers" },
                                                     { title: "Domains", desc: "Claim your online presence", icon: ShoppingBasketIcon, price: "£0.99/yr", path: "/domains" },
                                                     { title: "Enterprise Solutions", desc: "Managed services & IT consultancy", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
                                                 ].map((item, idx) => (
