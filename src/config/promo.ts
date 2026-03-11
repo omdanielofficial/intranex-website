@@ -9,7 +9,7 @@ export const promoConfig = {
             title: "40% OFF Web Hosting & Virtual Private Servers",
             description: "Launch your new website or virtual private server for almost half the price.",
             code: "INTRANEX40",
-            endDate: "2026-03-15T00:00:00Z",
+            endDate: "2026-03-21T00:00:00Z",
             quota: "Quota : Unlimited",
             terms: [
                 "Valid for web hosting & VPS plans.",
@@ -23,7 +23,7 @@ export const promoConfig = {
             title: "25% OFF Game Hosting",
             description: "Launch your new game server and grow a community for a quarter of the price.",
             code: "GAME25",
-            endDate: "2026-03-15T00:00:00Z",
+            endDate: "2026-03-27T00:00:00Z",
             quota: "Quota : Unlimited",
             terms: [
                 "Valid for game hosting plans.",
