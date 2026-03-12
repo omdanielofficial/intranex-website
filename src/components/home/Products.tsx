@@ -78,10 +78,10 @@ export const Products = () => {
                 <div className="flex flex-col md:flex-row justify-between items-end mb-12">
                     <div className="max-w-2xl">
                         <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 dark:text-white mb-4 tracking-tight">
-                            Popular Services
+                            Explore Our Services
                         </h2>
                         <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-                            Quickly get your website or application online with us.
+                            Quickly get your server or application online with us.
                         </p>
                     </div>
 
