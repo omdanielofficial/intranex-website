@@ -318,10 +318,10 @@ export const Navbar = () => {
                                         >
                                             <div className="pl-4 ml-4 border-l-2 border-brand-primary/20 space-y-3 py-2">
                                                 {[
-                                                    { title: "Virtual Private Servers", desc: "Scalable cloud compute", icon: Cloud, price: "£5.20/mo", path: "/vps" },
-                                                    { title: "Dedicated Servers", desc: "100% bare metal servers", icon: Server, price: "£95.00/mo", path: "/dedicated" },
-                                                    { title: "Game Hosting", desc: "Hosting for over 15 games", icon: GamepadIcon, price: "£2.50/mo", path: "/game" },
-                                                    { title: "Enterprise Solutions", desc: "Managed services & IT consultancy", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
+                                                    { title: "Virtual Private Servers", desc: "Scalable cloud compute with latest-gen hardware", icon: Cloud, price: "£5.20/mo", path: "/vps" },
+                                                    { title: "Dedicated Servers", desc: "Physical bare metal servers for ultimate performance", icon: Server, price: "£95.00/mo", path: "/dedicated" },
+                                                    { title: "Game Hosting", desc: "Affordable shared hosting for 15+ popular games", icon: GamepadIcon, price: "£2.50/mo", path: "/game" },
+                                                    { title: "Enterprise Solutions", desc: "Managed services & specialist consultancy", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
                                                 ].map((item, idx) => (
                                                     <Link key={idx} to={item.path} className="block">
                                                         <div className="text-sm font-semibold text-gray-900 dark:text-gray-100">{item.title}</div>
