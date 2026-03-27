@@ -1,4 +1,4 @@
-import { Server, Cloud, ArrowRight, CheckCircle2, ChevronLeft, ChevronRight, GamepadIcon } from 'lucide-react';
+import { Server, Cloud, ArrowRight, CheckCircle2, ChevronLeft, ChevronRight, MedalIcon } from 'lucide-react';
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -40,21 +40,21 @@ const products = [
         ]
     },
     {
-        icon: GamepadIcon,
-        title: "New York City, US",
-        subtitle: "Game Hosting",
-        description: "Lightning-fast game server hosting with support for over 15 games.",
-        price: "2.50",
+        icon: MedalIcon,
+        title: "Ready to scale?",
+        subtitle: "Enterprise Solutions",
+        description: "Server monitoring, system administration, consultations, and more.",
+        price: "150.00",
         unit: "/mo",
         highlight: "Maximum Power",
         theme: "amber",
-        link: "/game",
+        link: "/enterprise",
         features: [
-            "AMD Ryzen™ 9 9950X CPUs",
-            "Modpack & Plugin Support",
-            "NVMe SSD Storage",
-            "Free Subdomains",
-            "Free Tebex Plus Included"
+            "Infrastructure Administration",
+            "IT Consultancy & Design",
+            "Security Management",
+            "Migration & Optimisation",
+            "Priority Support"
         ]
     },
 ];

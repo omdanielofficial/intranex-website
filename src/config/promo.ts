@@ -9,7 +9,7 @@ export const promoConfig = {
             title: "40% OFF Virtual Private Servers",
             description: "Launch your new virtual private server for almost half the price.",
             code: "INTRANEX40",
-            endDate: "2026-03-21T00:00:00Z",
+            endDate: "2026-04-21T00:00:00Z",
             quota: "Quota : Unlimited",
             terms: [
                 "Valid for all virtual private server plans.",
@@ -19,14 +19,14 @@ export const promoConfig = {
             ]
         },
         {
-            id: "game-25",
-            title: "25% OFF Game Hosting",
-            description: "Launch your new game server and grow a community for a quarter of the price.",
-            code: "GAME25",
+            id: "dedi-ryzen-25",
+            title: "15% OFF Ryzen Dedicated Servers",
+            description: "Launch your new Ryzen server with latest-gen hardware at a lower cost.",
+            code: "DEDIRYZEN15",
             endDate: "2026-03-27T00:00:00Z",
-            quota: "Quota : Unlimited",
+            quota: "Quota : 35",
             terms: [
-                "Valid for game hosting plans.",
+                "Valid for all AMD Ryzen dedicated servers.",
                 "Applicable to monthly billing cycles only.",
                 "Valid for new customers only.",
                 "Cannot be combined with other promos."

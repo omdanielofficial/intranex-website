@@ -67,7 +67,6 @@ export const Footer = () => {
                                 {[
                                     { name: 'Virtual Private Servers', to: '/vps' },
                                     { name: 'Dedicated Servers', to: '/dedicated' },
-                                    { name: 'Game Hosting', to: '/game' },
                                     { name: 'Enterprise Solutions', to: '/enterprise' },
                                 ].map((item) => (
                                     <li key={item.name}>
