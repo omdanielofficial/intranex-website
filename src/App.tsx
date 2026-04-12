@@ -6,8 +6,6 @@ import { CookieConsent } from './components/CookieConsent';
 
 
 const Home = lazy(() => import('./pages/Home'));
-const WebHosting = lazy(() => import('./pages/SharedHosting'));
-const ResellerHosting = lazy(() => import('./pages/ResellerHosting'));
 const VirtualPrivateServers = lazy(() => import('./pages/CloudVPS'));
 const DedicatedServers = lazy(() => import('./pages/DedicatedServer'));
 const EnterpriseSolutions = lazy(() => import('./pages/Colocation'));
@@ -33,8 +31,6 @@ function App() {
         <Suspense fallback={<PageLoader />}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/web" element={<WebHosting />} />
-            <Route path="/resellers" element={<ResellerHosting />} />
             <Route path="/vps" element={<VirtualPrivateServers />} />
             <Route path="/dedicated" element={<DedicatedServers />} />
             <Route path="/enterprise" element={<EnterpriseSolutions />} />

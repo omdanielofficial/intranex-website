@@ -115,7 +115,7 @@ export const CloudHostingPricing = () => {
                                             href={plan.link || '#'}
                                             className="inline-flex w-full bg-brand-primary hover:bg-brand-secondary text-white font-bold py-3.5 rounded-lg transition-all duration-300 transform active:scale-95 text-lg justify-center items-center"
                                         >
-                                            Select Plan
+                                            Not Available
                                         </a>
                                     </div>
 
