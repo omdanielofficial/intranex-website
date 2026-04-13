@@ -29,7 +29,7 @@ export const Footer = () => {
                                     alt="Intranex"
                                     width={120}
                                     height={32}
-                                    className="hidden lg:block dark:hidden h-8 w-auto"
+                                    className="hidden lg:block dark:hidden h-12 w-auto"
                                 />
 
                                 <img
@@ -37,17 +37,15 @@ export const Footer = () => {
                                     alt="Intranex"
                                     width={120}
                                     height={32}
-                                    className="hidden dark:lg:block h-8 w-auto"
+                                    className="hidden dark:lg:block h-12 w-auto"
                                 />
                             </div>
-                            <p className="text-gray-500 dark:text-gray-400 leading-relaxed text-sm mb-2">
+                            <p className="text-gray-500 dark:text-gray-400 leading-relaxed text-sm mb-0">
                                 Intranex builds secure, scalable digital infrastructure for organisations that demand performance. From cloud compute to managed hosting and consultancy, we provide the backbone that keeps businesses running faster, smarter and without compromise.
                             </p>
                         </div>
 
                         <div className="space-y-4 text-sm text-gray-500 dark:text-gray-400">
-                            <p>Contact: <span className="text-gray-900 dark:text-gray-300">hello@intranex.org</span></p>
-
                             <div>
                                 <p className="mb-1">Mail Address:</p>
                                 <p className="text-gray-900 dark:text-gray-300">

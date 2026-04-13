@@ -110,7 +110,7 @@ export const Navbar = () => {
                                 alt="Intranex Logo"
                                 width={120}
                                 height={32}
-                                className="hidden lg:block h-8 w-auto object-contain transition-opacity duration-300"
+                                className="hidden lg:block h-12 w-auto object-contain transition-opacity duration-300"
                             />
 
                             <img
