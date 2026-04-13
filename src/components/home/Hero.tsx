@@ -38,11 +38,11 @@ export const Hero = () => {
 
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-10 opacity-0 animate-fade-in-up animate-delay-300">
                             <Link
-                                to="/dedicated"
+                                to="/hybrid"
                                 className="w-full sm:w-auto px-10 py-5 bg-brand-primary hover:bg-brand-secondary text-white font-black rounded-2xl transition-all flex items-center justify-center gap-2 group transform active:scale-95 tracking-tighter"
                                 aria-label="Get started with Intranex VPS Hosting"
                             >
-                                Dedicated Servers
+                                New Hybrid Servers
                                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                             </Link>
                         </div>
