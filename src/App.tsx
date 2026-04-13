@@ -9,7 +9,7 @@ const Home = lazy(() => import('./pages/Home'));
 const VirtualPrivateServers = lazy(() => import('./pages/CloudVPS'));
 const DedicatedServers = lazy(() => import('./pages/DedicatedServer'));
 const EnterpriseSolutions = lazy(() => import('./pages/Colocation'));
-const GameHosting = lazy(() => import('./pages/CloudHosting'));
+const HybridServers = lazy(() => import('./pages/CloudHosting'));
 const Domains = lazy(() => import('./pages/Domain'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Legal = lazy(() => import('./pages/Legal'));
@@ -32,10 +32,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/vps" element={<VirtualPrivateServers />} />
-            <Route path="/dedicated" element={<DedicatedServers />} />
+            <Route path="/baremetal" element={<DedicatedServers />} />
             <Route path="/enterprise" element={<EnterpriseSolutions />} />
             <Route path="/domains" element={<Domains />} />
-            <Route path="/game" element={<GameHosting />} />
+            <Route path="/hybrid" element={<HybridServers />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/legal" element={<Legal />} />
             <Route path="/legal/:docId" element={<Legal />} />

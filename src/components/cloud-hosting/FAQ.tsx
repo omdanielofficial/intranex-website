@@ -3,28 +3,28 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const faqs = [
     {
-        question: "Can I upgrade my plan later if I need more resources?",
-        answer: "Absolutely! You can upgrade or downgrade your game server plan at any time in your client account. We understand that circumstances change, and sometimes you might need a little bit more or a little bit less. Alternatively, you can also reach out to our support team to create a custom plan for any of our game servers to fit your needs."
+        question: "What is a hybrid dedicated server?",
+        answer: "A hybrid dedicated server (also known as a virtual dedicated server) is a hosting solution that bridges the gap between a traditional bare metal dedicated server and a virtual private server. It uses virtualisation technology to provide you with guaranteed, exclusive resources while offering cost-efficiency and management flexibility."
     },
     {
-        question: "Do you support mods and plugins?",
-        answer: "Of course we do! All of our game hosting plans allow you to install the best modpacks in one click. We want you to be able to craft the server of your dreams, so we also have a built-in plugin installer which means you can install everything from the comfort of your control panel."
+        question: "Is DDoS protection included?",
+        answer: "Yes, all dedicated servers include free standard DDoS protection. For mission-critical applications requiring higher mitigation capacity or specific game filtering, this provides excellent attack mitigation."
     },
     {
         question: "How long does setup take?",
-        answer: "As soon as you purchase a server with us, you will receive an email with your login information to access your server's control panel. Just login, select a server type and connect to your server!"
+        answer: "As soon as you purchase a server with us, you will receive an email with your login information to access your server. The benefit of hybrid servers is that they are usually provisioned within minutes."
     },
     {
-        question: "Will my game server be online 24/7?",
-        answer: "Yes, all game servers remain online 24/7 so that your players can connect around the clock. There's no queue when starting a server, meaning that you won't have to wait before connecting."
+        question: "Are there any limitations to a hybrid server?",
+        answer: "Hybrid servers are an excellent option for most people, however some use cases have limitations. It is not recommended to setup virtual private servers on a hybrid server due to instability stemming from multiple virtualisation layers."
     },
     {
-        question: "Do you support switching versions and games?",
-        answer: "You can switch versions using our one-click version installer through the control panel. If you'd like to switch games entirely, just reach out to our team and we'll be more than happy to help."
+        question: "Do I get full root access?",
+        answer: "Absolutely! You get to choose which operating system is installed, and we provide full root access. You have full control over your server, so there's no need to worry about being restricted."
     },
     {
-        question: "Do you offer dedicated ports?",
-        answer: "We offer a paid addon where you can use the default ports for your game (e.g. Minecraft ports are 25565 & 19132). Just select the addon at checkout if you wish to take advantage of this."
+        question: "Do you offer managed support?",
+        answer: "Our dedicated servers are self-managed by default, giving you full control. However, our enterprise solutions offerings include full server management, systems administration, software installs, and more."
     }
 ];
 

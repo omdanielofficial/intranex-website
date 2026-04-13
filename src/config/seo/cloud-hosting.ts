@@ -1,16 +1,15 @@
 import type { SEOData } from './types';
 
 export const cloudHostingSEO: SEOData = {
-    title: 'Game Hosting | High-Performance Game Servers',
-    description: 'Powerful game servers with unlimited slots, bandwidth, and unbeatable prices. Play your favourite games with friends, lag-free. Hosted on Ryzen 9 9950X CPUs with NVMe storage.',
+    title: 'Hybrid Dedicated Servers | Virtual Dedicated',
+    description: 'Hybrid servers with isolated resources running on the latest AMD Ryzen 9 9950X series processors at a fraction of the cost of bare metal.',
     keywords: [
-        'Game Server Hosting',
-        'Ryzen 9 9950X Game Hosting',
-        'Minecraft Server Hosting',
-        'Cheap Minecraft Hosting',
-        'Ryzen 9 Minecraft Servers',
-        'Hytale Server Hosting',
-        'Lodestone Game Hosting'
+        'Ryzen 9 9950X Hosting',
+        'Hybrid Dedicated Servers',
+        'Virtual Dedicated Servers',
+        'Cheap VDS Hosting',
+        'Ryzen 9 VDS Hosting',
+        'Bare Metal Servers'
     ],
     ogType: 'product'
 };

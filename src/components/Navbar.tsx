@@ -164,9 +164,10 @@ export const Navbar = () => {
 
                                             <div className="w-2/3 p-6 grid grid-cols-2 gap-3">
                                                 {[
-                                                    { title: "Virtual Private Servers", desc: "Scalable cloud compute", icon: Cloud, price: "£5.20/mo", path: "/vps" },
-                                                    { title: "Dedicated Servers", desc: "100% bare metal servers", icon: Server, price: "£95.00/mo", path: "/dedicated" },
-                                                    { title: "Enterprise Solutions", desc: "Managed services & IT consultancy", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
+                                                    { title: "Virtual Private Servers", desc: "Scalable KVM virtual servers with AMD Ryzen CPUs and NVMe storage", icon: Cloud, price: "£5.20/mo", path: "/vps" },
+                                                    { title: "Hybrid Dedicated Servers", desc: "[NEW] AMD Ryzen hybrid dedicated servers with isolated resources", icon: Server, price: "£80.00/mo", path: "/hybrid" },
+                                                    { title: "Bare Metal Dedicated Servers", desc: "Single-tenant AMD Ryzen and Intel Core bare metal servers for ultimate performance", icon: Server, price: "£95.00/mo", path: "/baremetal" },
+                                                    { title: "Enterprise Solutions", desc: "Managed infrastructure services and IT consultancy for businesses of all sizes", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
                                                 ].map((item, idx) => (
                                                     <Link key={idx} to={item.path} className="flex items-start gap-3 p-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800/50 transition-colors group">
                                                         <div className="p-2.5 bg-brand-primary/10 rounded-lg text-brand-primary group-hover:bg-brand-primary group-hover:text-white transition-colors">
@@ -317,9 +318,10 @@ export const Navbar = () => {
                                         >
                                             <div className="pl-4 ml-4 border-l-2 border-brand-primary/20 space-y-3 py-2">
                                                 {[
-                                                    { title: "Virtual Private Servers", desc: "Scalable cloud compute with latest-gen hardware", icon: Cloud, price: "£5.20/mo", path: "/vps" },
-                                                    { title: "Dedicated Servers", desc: "Physical bare metal servers for ultimate performance", icon: Server, price: "£95.00/mo", path: "/dedicated" },
-                                                    { title: "Enterprise Solutions", desc: "Managed services & specialist consultancy", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
+                                          { title: "Virtual Private Servers", desc: "Scalable KVM virtual servers with AMD Ryzen CPUs and NVMe storage", icon: Cloud, price: "£5.20/mo", path: "/vps" },
+                                                    { title: "Hybrid Dedicated Servers", desc: "[NEW] AMD Ryzen hybrid dedicated servers with isolated resources", icon: Server, price: "£80.00/mo", path: "/hybrid" },
+                                                    { title: "Bare Metal Dedicated Servers", desc: "Single-tenant AMD Ryzen and Intel Core bare metal servers for ultimate performance", icon: Server, price: "£95.00/mo", path: "/baremetal" },
+                                                    { title: "Enterprise Solutions", desc: "Managed infrastructure services and IT consultancy for businesses of all sizes", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
                                                 ].map((item, idx) => (
                                                     <Link key={idx} to={item.path} className="block">
                                                         <div className="text-sm font-semibold text-gray-900 dark:text-gray-100">{item.title}</div>

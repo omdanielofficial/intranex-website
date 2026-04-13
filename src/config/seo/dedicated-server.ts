@@ -1,7 +1,7 @@
 import type { SEOData } from './types';
 
 export const dedicatedServerSEO: SEOData = {
-    title: 'Dedicated Servers | Bare Metal Infrastructure',
+    title: 'Bare Metal Dedicated Servers | Bare Metal Infrastructure',
     description: 'Powerful Bare Metal Dedicated Servers for enterprise workloads. Featuring high-performance hardware, customisable configurations, and a global high-speed network. 99.99% Uptime SLA guaranteed.',
     keywords: [
         'Enterprise Dedicated Servers',

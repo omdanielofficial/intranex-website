@@ -22,14 +22,14 @@ export const CloudHostingHero = () => {
 
                     <div className="w-full lg:w-[55%] flex flex-col items-center lg:items-start text-center lg:text-left justify-center">
                         <h1 className="text-5xl font-extrabold tracking-tight text-white lg:text-7xl leading-[1.1] mb-6">
-                            High-Performance <br />
+                            Hybrid <br />
                             <span className="text-white/90">
-                                Game Hosting
+                                Dedicated Servers
                             </span>
                         </h1>
 
                         <p className="text-lg text-white/90 lg:text-xl leading-relaxed mb-8 max-w-xl">
-                            Lightning-fast hosting with <span className="text-white font-bold">modpack and plugin support, free subdomains, and instant setup</span> for over 15 games.
+                            Hybrid servers with isolated resources running on the <span className="text-white font-bold">latest AMD Ryzen™ 9 9950X series processors</span> at a fraction of the cost of bare metal.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">

@@ -64,7 +64,8 @@ export const Footer = () => {
                             <ul className="space-y-3">
                                 {[
                                     { name: 'Virtual Private Servers', to: '/vps' },
-                                    { name: 'Dedicated Servers', to: '/dedicated' },
+                                    { name: 'Hybrid Dedicated Servers', to: '/hybrid' },
+                                    { name: 'Bare Metal Dedicated Servers', to: '/baremetal' },
                                     { name: 'Enterprise Solutions', to: '/enterprise' },
                                 ].map((item) => (
                                     <li key={item.name}>

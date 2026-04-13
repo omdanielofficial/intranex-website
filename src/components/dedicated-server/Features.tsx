@@ -4,7 +4,7 @@ const features = [
     {
         icon: Cpu,
         title: "Lightning Fast CPUs",
-        description: "Powered by industry-leading computation. We deploy high-frequency AMD Ryzen™ processors to crush your most intensive workloads."
+        description: "Powered by industry-leading computation. We deploy high-frequency AMD Ryzen™ and Intel Core™ processors to crush your most intensive workloads."
     },
     {
         icon: Network,

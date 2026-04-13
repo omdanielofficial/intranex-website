@@ -1,4 +1,4 @@
-import { Server, Cloud, ArrowRight, CheckCircle2, ChevronLeft, ChevronRight, MedalIcon } from 'lucide-react';
+import { Server, Cloud, ArrowRight, CheckCircle2, ChevronLeft, ChevronRight, MedalIcon, CloudCog } from 'lucide-react';
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -22,17 +22,35 @@ const products = [
         ]
     },
     {
+        icon: CloudCog,
+        title: "New York City, US",
+        subtitle: "Hybrid Dedicated Servers",
+        description: "The perfect middle ground between virtual private servers and bare metal.",
+        price: "80.00",
+        unit: "/mo",
+        highlight: "Maximum Power",
+        theme: "emerald",
+        link: "/hybrid",
+        features: [
+            "AMD Ryzen™ CPUs",
+            "Isolated Dedicated Resources",
+            "NVMe SSD Storage",
+            "Full Root Access",
+            "Instant Provisioning"
+        ]
+    },
+    {
         icon: Server,
         title: "London, UK / New York City, US",
-        subtitle: "Dedicated Servers",
+        subtitle: "Bare Metal Dedicated Servers",
         description: "Maximum power with single-tenant bare metal hardware for all workloads.",
         price: "95.00",
         unit: "/mo",
         highlight: "Maximum Power",
         theme: "purple",
-        link: "/dedicated",
+        link: "/baremetal",
         features: [
-            "AMD Ryzen™ CPUs",
+            "AMD Ryzen™ & Intel Core™ CPUs",
             "Single-Tenant Servers",
             "NVMe SSD Storage",
             "Full Root Access",

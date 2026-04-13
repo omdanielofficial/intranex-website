@@ -6,28 +6,28 @@ import {
     Rocket,
     LayoutDashboard,
     HardDrive,
-    LinkIcon
+    Banknote
 } from 'lucide-react';
 
 const advantages = [
     {
         title: "Great Performance",
-        description: "We use the latest Ryzen 9 9950X processors for unparalleled game server performance.",
+        description: "We only use the latest Ryzen™ 9950X processors for unparalleled server performance.",
         icon: Zap,
         color: "text-brand-primary",
         bg: "bg-brand-primary/10"
     },
     {
-        title: "Essential Features",
-        description: "Take advantage of our version switcher, user management system, SFTP access, customisation, and more.",
+        title: "Isolated Resources",
+        description: "All resources are isolated within a virtualised environment to ensure stability and scalability.",
         icon: UserCog,
         color: "text-brand-primary",
         bg: "bg-brand-primary/10"
     },
     {
-        title: "Free Subdomain",
-        description: "Get a subdomain included for free so that players don't have to connect with a numerical IP address.",
-        icon: LinkIcon,
+        title: "Excellent Pricing",
+        description: "Take advantage of top-tier hardware at a significantly lower cost than bare metal servers.",
+        icon: Banknote,
         color: "text-brand-primary",
         bg: "bg-brand-primary/10"
     },
@@ -39,8 +39,8 @@ const advantages = [
         bg: "bg-brand-primary/10"
     },
     {
-        title: "Modpacks & Plugins",
-        description: "We provide one-click modpack and plugin installers for all supported games, plus Steam Workshop and more.",
+        title: "Full Root Access",
+        description: "Choose between Linux or Windows operating systems and get full root access to stay in control.",
         icon: Code2,
         color: "text-brand-primary",
         bg: "bg-brand-primary/10"
@@ -53,8 +53,8 @@ const advantages = [
         bg: "bg-brand-primary/10"
     },
     {
-        title: "Intuitive Control Panel",
-        description: "We use a heavily modified version of the industry-leading Pterodactyl software with a modern interface.",
+        title: "Rapid Provisioning",
+        description: "Hybrid servers are provisioned within minutes compared to traditional bare metal which can take days.",
         icon: LayoutDashboard,
         color: "text-brand-primary",
         bg: "bg-brand-primary/10"
@@ -74,10 +74,10 @@ export const CloudHostingAdvantages = () => {
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 dark:text-white mb-4 tracking-tight">
-                        Why Choose Our Game Hosting?
+                        Why Choose Our Hybrid Servers?
                     </h2>
                     <p className="text-lg text-gray-500 dark:text-gray-400">
-                        Providing powerful, affordable, and reliable game hosting across the world.
+                        The perfect middle ground between virtual private servers and bare metal.
                     </p>
                 </div>
 

@@ -7,18 +7,18 @@ export const CloudHostingEnterpriseCTA = () => {
                 <div className="flex flex-col md:flex-row items-center justify-between gap-8 max-w-5xl mx-auto">
                     <div className="text-center md:text-left">
                         <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
-                            Looking to monetise your game server?
+                            Still need more resources?
                         </h2>
                         <p className="text-white/90 text-lg font-medium">
-                            Every purchase comes with a free Tebex Plus license so that you can create a webstore and begin selling paid perks to your players.
+                            We also offer latest-gen bare metal Ryzen 9 9950X servers with 192GB and 256GB memory configurations. Available in London, UK and New York City, US.
                         </p>
                     </div>
 <div className="flex-shrink-0">
     <a
-        href="https://tebex.io"
+        href="/baremetal"
         className="inline-flex items-center gap-2 bg-white text-brand-primary hover:bg-gray-50 font-bold py-3 px-8 rounded-xl transition-all"
     >
-        About Tebex
+        Bare Metal
         <ArrowRight size={20} />
     </a>
 </div>
