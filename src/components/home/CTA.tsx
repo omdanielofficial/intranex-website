@@ -26,7 +26,7 @@ export const CTA = () => {
 
                         <div className="max-w-xl text-center lg:text-left order-1 lg:order-2 lg:w-1/2 pb-12 lg:pb-20">
                             <div className="inline-block px-4 py-1.5 bg-white/20 rounded-full text-white text-xs font-bold mb-6 border border-white/20 tracking-widest">
-                                Human Support, No Chatbots
+                                Human Support. No Chatbots.
                             </div>
                             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 tracking-tight leading-tight">
                                 We're here anytime <br /> you need us.

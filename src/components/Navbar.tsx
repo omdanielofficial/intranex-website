@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Menu, X, ChevronDown, Moon, Sun, Server, Cloud, MedalIcon, SearchIcon, WifiHighIcon, BookIcon, ClockArrowDown } from 'lucide-react';
+import { Menu, X, ChevronDown, Moon, Sun, Server, Cloud, MedalIcon, SearchIcon, WifiHighIcon, BookIcon, ClockArrowDown, CloudCog } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { announcementConfig } from '../config/announcement';
 import logoWhite from '../assets/logo-white.svg';
@@ -165,7 +165,7 @@ export const Navbar = () => {
                                             <div className="w-2/3 p-6 grid grid-cols-2 gap-3">
                                                 {[
                                                     { title: "Virtual Private Servers", desc: "Scalable KVM virtual servers with AMD Ryzen CPUs and NVMe storage", icon: Cloud, price: "£5.20/mo", path: "/vps" },
-                                                    { title: "Hybrid Dedicated Servers", desc: "[NEW] AMD Ryzen hybrid dedicated servers with isolated resources", icon: Server, price: "£80.00/mo", path: "/hybrid" },
+                                                    { title: "Hybrid Dedicated Servers", desc: "[NEW] AMD Ryzen hybrid dedicated servers with isolated resources", icon: CloudCog, price: "£80.00/mo", path: "/hybrid" },
                                                     { title: "Bare Metal Dedicated Servers", desc: "Single-tenant AMD Ryzen and Intel Core bare metal servers for ultimate performance", icon: Server, price: "£95.00/mo", path: "/baremetal" },
                                                     { title: "Enterprise Solutions", desc: "Managed infrastructure services and IT consultancy for businesses of all sizes", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
                                                 ].map((item, idx) => (
@@ -319,7 +319,7 @@ export const Navbar = () => {
                                             <div className="pl-4 ml-4 border-l-2 border-brand-primary/20 space-y-3 py-2">
                                                 {[
                                           { title: "Virtual Private Servers", desc: "Scalable KVM virtual servers with AMD Ryzen CPUs and NVMe storage", icon: Cloud, price: "£5.20/mo", path: "/vps" },
-                                                    { title: "Hybrid Dedicated Servers", desc: "[NEW] AMD Ryzen hybrid dedicated servers with isolated resources", icon: Server, price: "£80.00/mo", path: "/hybrid" },
+                                                    { title: "Hybrid Dedicated Servers", desc: "[NEW] AMD Ryzen hybrid dedicated servers with isolated resources", icon: CloudCog, price: "£80.00/mo", path: "/hybrid" },
                                                     { title: "Bare Metal Dedicated Servers", desc: "Single-tenant AMD Ryzen and Intel Core bare metal servers for ultimate performance", icon: Server, price: "£95.00/mo", path: "/baremetal" },
                                                     { title: "Enterprise Solutions", desc: "Managed infrastructure services and IT consultancy for businesses of all sizes", icon: MedalIcon, price: "£150.00/mo", path: "/enterprise" },
                                                 ].map((item, idx) => (
