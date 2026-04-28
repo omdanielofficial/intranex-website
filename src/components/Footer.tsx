@@ -109,7 +109,7 @@ export const Footer = () => {
                                     { name: 'Contact', to: '/contact' },
                                     { name: 'Special Offers', to: '/promo' },
                                     { name: 'Affiliate Program', to: 'https://client.intranex.org/affiliates.php' },
-                                    { name: 'Careers', to: 'mailto:careers@intranex.org' }             
+                                    { name: 'Jobs', to: 'https://jobs.intranex.org' }             
                                 ].map((item) => (
                                     <li key={item.name}>
                                         {item.to === '#' ? (
